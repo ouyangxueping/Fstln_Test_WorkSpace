@@ -1,0 +1,151 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "PageNo": {
+      "type": "integer"
+    },
+    "PageSize": {
+      "type": "integer"
+    },
+    "Total": {
+      "type": "integer"
+    },
+    "Data": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "Id": {
+            "type": "integer"
+          },
+          "MemberId": {
+            "type": "integer"
+          },
+          "VideoId": {
+            "type": "integer"
+          },
+          "IsHidden": {
+            "type": "integer"
+          },
+          "ShopId": {
+            "type": "integer"
+          },
+          "Title": {
+            "type": "string"
+          },
+          "Content": {
+            "type": "string"
+          },
+          "CreateTime": {
+            "type": "string"
+          },
+          "AdminStatus": {
+            "type": "integer"
+          },
+          "StoreId": {
+            "type": "integer"
+          },
+          "DisplaySequence": {
+            "type": "integer"
+          },
+          "RecommentTime": {
+            "type": "string"
+          },
+          "CreateTimeDisplay": {
+            "type": "string"
+          },
+          "RecommentTimeDisplay": {
+            "type": "string"
+          },
+          "ImagePath": {
+            "type": "string"
+          },
+          "ImageQuantityString": {
+            "type": "string"
+          },
+          "UserName": {
+            "type": "string"
+          },
+          "ReviewCount": {
+            "type": "integer"
+          },
+          "ReplyCount": {
+            "type": "integer"
+          },
+          "ReplyCount_All": {
+            "type": "integer"
+          },
+          "PraisedCount": {
+            "type": "integer"
+          },
+          "Photo": {
+            "type": "string"
+          },
+          "PhotoForApi": {
+            "type": "string"
+          },
+          "PhotoUrl": {
+            "type": "string"
+          },
+          "ImageUrl": {
+            "type": "string"
+          },
+          "H5Video": {
+            "type": "null"
+          },
+          "ImgMax414": {
+            "type": "null"
+          }
+        },
+        "required": [
+          "Id",
+          "MemberId",
+          "VideoId",
+          "IsHidden",
+          "ShopId",
+          "Title",
+          "Content",
+          "CreateTime",
+          "AdminStatus",
+          "StoreId",
+          "DisplaySequence",
+          "RecommentTime",
+          "CreateTimeDisplay",
+          "RecommentTimeDisplay",
+          "ImagePath",
+          "ImageQuantityString",
+          "UserName",
+          "ReviewCount",
+          "ReplyCount",
+          "ReplyCount_All",
+          "PraisedCount",
+          "Photo",
+          "PhotoForApi",
+          "PhotoUrl",
+          "ImageUrl",
+          "H5Video",
+          "ImgMax414"
+        ]
+      }
+    },
+    "Message": {
+      "type": "string"
+    },
+    "Success": {
+      "type": "boolean"
+    },
+    "Code": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "PageNo",
+    "PageSize",
+    "Total",
+    "Data",
+    "Message",
+    "Success",
+    "Code"
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#", 
+  "definitions": {}, 
+  "id": "http://example.com/example.json", 
+  "properties": {
+    "Code": {
+      "default": 0, 
+      "description": "An explanation about the purpose of this instance.", 
+      "examples": [
+        "0"
+      ], 
+      "id": "/properties/Code", 
+      "title": "The Code Schema.", 
+      "type": "integer"
+    }, 
+    "Data": {
+      "id": "/properties/Data", 
+      "items": {
+        "id": "/properties/Data/items", 
+        "properties": { 
+          "carouselImageInfoList": {
+            "default": null, 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "None"
+            ], 
+            "id": "/properties/Data/items/properties/carouselImageInfoList", 
+            "title": "The Carouselimageinfolist Schema.", 
+            "type": "null"
+          }, 
+          "depth": {
+            "default": 0, 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "0"
+            ], 
+            "id": "/properties/Data/items/properties/depth", 
+            "title": "The Depth Schema.", 
+            "type": "integer"
+          }, 
+          "display": {
+            "default": 0, 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "0"
+            ], 
+            "id": "/properties/Data/items/properties/display", 
+            "title": "The Display Schema.", 
+            "type": "integer"
+          }, 
+          "displaySequence": {
+            "default": 1, 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "1"
+            ], 
+            "id": "/properties/Data/items/properties/displaySequence", 
+            "title": "The Displaysequence Schema.", 
+            "type": "integer"
+          }, 
+          "id": {
+            "default": 130, 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "130"
+            ], 
+            "id": "/properties/Data/items/properties/id", 
+            "title": "The Id Schema.", 
+            "type": "integer"
+          }, 
+          "name": {
+            "default": "\u6f6e\u4eba\u7a7f\u642d", 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "\u6f6e\u4eba\u7a7f\u642d"
+            ], 
+            "id": "/properties/Data/items/properties/name", 
+            "title": "The Name Schema.", 
+            "type": "string"
+          }, 
+          "parentId": {
+            "default": 0, 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "0"
+            ], 
+            "id": "/properties/Data/items/properties/parentId", 
+            "title": "The Parentid Schema.", 
+            "type": "integer"
+          }, 
+          "subList": {
+            "default": null, 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "None"
+            ], 
+            "id": "/properties/Data/items/properties/subList", 
+            "title": "The Sublist Schema.", 
+            "type": "null"
+          }, 
+          "titleImage": {
+            "default": null, 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "None"
+            ], 
+            "id": "/properties/Data/items/properties/titleImage", 
+            "title": "The Titleimage Schema.", 
+            "type": "null"
+          }
+        }, 
+        "required": [
+          "titleImage", 
+          "carouselImageInfoList", 
+          "name", 
+          "displaySequence", 
+          "subList", 
+          "id", 
+          "depth", 
+          "beakImage", 
+          "parentId", 
+          "display"
+        ], 
+        "type": "object"
+      }, 
+      "type": "array"
+    }, 
+    "Message": {
+      "default": "", 
+      "description": "An explanation about the purpose of this instance.", 
+      "examples": [
+        ""
+      ], 
+      "id": "/properties/Message", 
+      "title": "The Message Schema.", 
+      "type": "string"
+    }, 
+    "Success": {
+      "default": true, 
+      "description": "An explanation about the purpose of this instance.", 
+      "examples": [
+        "True"
+      ], 
+      "id": "/properties/Success", 
+      "title": "The Success Schema.", 
+      "type": "boolean"
+    }
+  }, 
+  "required": [
+    "Message", 
+    "Code", 
+    "Data", 
+    "Success"
+  ], 
+  "type": "object"
+}

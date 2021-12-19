@@ -1,0 +1,123 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "Address": {
+      "type": "null"
+    },
+    "CellPhone": {
+      "type": "null"
+    },
+    "Email": {
+      "type": "null"
+    },
+    "Id": {
+      "type": "integer"
+    },
+    "UserName": {
+      "type": "string"
+    },
+    "UserNickName": {
+      "type": "null"
+    },
+    "QQ": {
+      "type": "null"
+    },
+    "RegionFullName": {
+      "type": "null"
+    },
+    "RegionIdPath": {
+      "type": "null"
+    },
+    "photo": {
+      "type": "string"
+    },
+    "Photo": {
+      "type": "string"
+    },
+    "ReceiveName": {
+      "type": "null"
+    },
+    "ReceiveAddress": {
+      "type": "null"
+    },
+    "ReceivePhone": {
+      "type": "null"
+    },
+    "Token": {
+      "type": "null"
+    },
+    "VideoAuthList": {
+      "type": "null"
+    },
+    "Message": {
+      "type": "string"
+    },
+    "Success": {
+      "type": "boolean"
+    },
+    "SubscribedLiveRoomList": {
+      "type": "null"
+    },
+    "CartViewModel": {
+      "type": "null"
+    },
+    "VipDiscountForProducts": {
+      "type": "null"
+    },
+    "RealName": {
+      "type": "null"
+    },
+    "BindingPhone": {
+      "type": "null"
+    },
+    "BindingEmail": {
+      "type": "null"
+    },
+    "PraisedVideoIds": {
+      "type": "array",
+      "items": {}
+    },
+    "ConcernedShopIds": {
+      "type": "array",
+      "items": {}
+    },
+    "FavoritedStoreIds": {
+      "type": "array",
+      "items": {}
+    },
+    "TagIds": {
+      "type": "null"
+    }
+  },
+  "required": [
+    "Address",
+    "CellPhone",
+    "Email",
+    "Id",
+    "UserName",
+    "UserNickName",
+    "QQ",
+    "RegionFullName",
+    "RegionIdPath",
+    "photo",
+    "Photo",
+    "ReceiveName",
+    "ReceiveAddress",
+    "ReceivePhone",
+    "Token",
+    "VideoAuthList",
+    "Message",
+    "Success",
+    "SubscribedLiveRoomList",
+    "CartViewModel",
+    "VipDiscountForProducts",
+    "RealName",
+    "BindingPhone",
+    "BindingEmail",
+    "PraisedVideoIds",
+    "ConcernedShopIds",
+    "FavoritedStoreIds",
+    "TagIds"
+  ]
+}

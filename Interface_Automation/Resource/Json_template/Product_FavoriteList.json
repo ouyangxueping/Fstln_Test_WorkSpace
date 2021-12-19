@@ -1,0 +1,54 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "Data": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "ProductId": {
+            "type": "integer"
+          },
+          "ProductName": {
+            "type": "string"
+          },
+          "ImagePath": {
+            "type": "string"
+          },
+          "Valid": {
+            "type": "boolean"
+          },
+          "Tags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "ProductId",
+          "ProductName",
+          "ImagePath",
+          "Valid",
+          "Tags"
+        ]
+      }
+    },
+    "Message": {
+      "type": "string"
+    },
+    "Success": {
+      "type": "boolean"
+    },
+    "Code": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "Data",
+    "Message",
+    "Success",
+    "Code"
+  ]
+}

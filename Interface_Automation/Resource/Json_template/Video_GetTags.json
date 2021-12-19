@@ -1,0 +1,240 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "definitions": {},
+    "id": "http://example.com/example.json",
+    "properties": {
+        "Code": {
+            "id": "/properties/Code",
+            "type": "integer"
+        },
+        "Data": {
+            "id": "/properties/Data",
+            "items": {
+                "id": "/properties/Data/items",
+                "properties": {
+                    "AvailabelVideoCount": {
+                        "id": "/properties/Data/items/properties/AvailabelVideoCount",
+                        "type": "integer"
+                    },
+                    "AvailableProductCount": {
+                        "id": "/properties/Data/items/properties/AvailableProductCount",
+                        "type": "integer"
+                    },
+                    "CategoryArray": {
+                        "id": "/properties/Data/items/properties/CategoryArray",
+                        "type": "string"
+                    },
+                    "CategoryId": {
+                        "id": "/properties/Data/items/properties/CategoryId",
+                        "type": "integer"
+                    },
+                    "CheckState": {
+                        "id": "/properties/Data/items/properties/CheckState",
+                        "type": "null"
+                    },
+                    "CreateTime": {
+                        "id": "/properties/Data/items/properties/CreateTime",
+                        "type": "string"
+                    },
+                    "CreateTimeDisplay": {
+                        "id": "/properties/Data/items/properties/CreateTimeDisplay",
+                        "type": "null"
+                    },
+                    "DanmuStatus": {
+                        "id": "/properties/Data/items/properties/DanmuStatus",
+                        "type": "boolean"
+                    },
+                    "Duration": {
+                        "id": "/properties/Data/items/properties/Duration",
+                        "type": "integer"
+                    },
+                    "H5Video": {
+                        "id": "/properties/Data/items/properties/H5Video",
+                        "type": "string"
+                    },
+                    "ImgMax": {
+                        "id": "/properties/Data/items/properties/ImgMax",
+                        "type": "string"
+                    },
+                    "ImgMax414": {
+                        "id": "/properties/Data/items/properties/ImgMax414",
+                        "type": "string"
+                    },
+                    "ImgMin301": {
+                        "id": "/properties/Data/items/properties/ImgMin301",
+                        "type": "string"
+                    },
+                    "InnerCode": {
+                        "id": "/properties/Data/items/properties/InnerCode",
+                        "type": "null"
+                    },
+                    "LinkedProductCount": {
+                        "id": "/properties/Data/items/properties/LinkedProductCount",
+                        "type": "integer"
+                    },
+                    "LinkedProductIds": {
+                        "id": "/properties/Data/items/properties/LinkedProductIds",
+                        "type": "string"
+                    },
+                    "LinkedProducts": {
+                        "id": "/properties/Data/items/properties/LinkedProducts",
+                        "items": {},
+                        "type": "array"
+                    },
+                    "LinkedVideoCount": {
+                        "id": "/properties/Data/items/properties/LinkedVideoCount",
+                        "type": "integer"
+                    },
+                    "LinkedVideoIds": {
+                        "id": "/properties/Data/items/properties/LinkedVideoIds",
+                        "type": "string"
+                    },
+                    "LinkedVideos": {
+                        "id": "/properties/Data/items/properties/LinkedVideos",
+                        "items": {},
+                        "type": "array"
+                    },
+                    "LogoUrlWeixin": {
+                        "id": "/properties/Data/items/properties/LogoUrlWeixin",
+                        "type": "string"
+                    },
+                    "PackageEndTime": {
+                        "id": "/properties/Data/items/properties/PackageEndTime",
+                        "type": "string"
+                    },
+                    "PlayerType": {
+                        "id": "/properties/Data/items/properties/PlayerType",
+                        "type": "integer"
+                    },
+                    "ShareContent": {
+                        "id": "/properties/Data/items/properties/ShareContent",
+                        "type": "string"
+                    },
+                    "ShopId": {
+                        "id": "/properties/Data/items/properties/ShopId",
+                        "type": "integer"
+                    },
+                    "ShopLogo": {
+                        "id": "/properties/Data/items/properties/ShopLogo",
+                        "type": "null"
+                    },
+                    "ShopName": {
+                        "id": "/properties/Data/items/properties/ShopName",
+                        "type": "string"
+                    },
+                    "Status": {
+                        "id": "/properties/Data/items/properties/Status",
+                        "type": "integer"
+                    },
+                    "StoreDescription": {
+                        "id": "/properties/Data/items/properties/StoreDescription",
+                        "type": "string"
+                    },
+                    "StoreId": {
+                        "id": "/properties/Data/items/properties/StoreId",
+                        "type": "integer"
+                    },
+                    "StoreName": {
+                        "id": "/properties/Data/items/properties/StoreName",
+                        "type": "string"
+                    },
+                    "UpdateTime": {
+                        "id": "/properties/Data/items/properties/UpdateTime",
+                        "type": "string"
+                    },
+                    "UpdateTimeDisplay": {
+                        "id": "/properties/Data/items/properties/UpdateTimeDisplay",
+                        "type": "string"
+                    },
+                    "VideoCnum": {
+                        "id": "/properties/Data/items/properties/VideoCnum",
+                        "type": "string"
+                    },
+                    "VideoId": {
+                        "id": "/properties/Data/items/properties/VideoId",
+                        "type": "integer"
+                    },
+                    "VideoName": {
+                        "id": "/properties/Data/items/properties/VideoName",
+                        "type": "string"
+                    },
+                    "VideoStatus": {
+                        "id": "/properties/Data/items/properties/VideoStatus",
+                        "type": "integer"
+                    },
+                    "clickNum": {
+                        "id": "/properties/Data/items/properties/clickNum",
+                        "type": "integer"
+                    },
+                    "commentCount": {
+                        "id": "/properties/Data/items/properties/commentCount",
+                        "type": "integer"
+                    },
+                    "favoriteNum": {
+                        "id": "/properties/Data/items/properties/favoriteNum",
+                        "type": "integer"
+                    },
+                    "h5VideoData": {
+                        "id": "/properties/Data/items/properties/h5VideoData",
+                        "type": "null"
+                    },
+                    "imgWeiXin": {
+                        "id": "/properties/Data/items/properties/imgWeiXin",
+                        "type": "null"
+                    },
+                    "isFavoritedByCurUser": {
+                        "id": "/properties/Data/items/properties/isFavoritedByCurUser",
+                        "type": "boolean"
+                    },
+                    "isPraisedByCurUser": {
+                        "id": "/properties/Data/items/properties/isPraisedByCurUser",
+                        "type": "boolean"
+                    },
+                    "max": {
+                        "id": "/properties/Data/items/properties/max",
+                        "type": "null"
+                    },
+                    "max414": {
+                        "id": "/properties/Data/items/properties/max414",
+                        "type": "null"
+                    },
+                    "min301": {
+                        "id": "/properties/Data/items/properties/min301",
+                        "type": "null"
+                    },
+                    "praiseCount": {
+                        "id": "/properties/Data/items/properties/praiseCount",
+                        "type": "integer"
+                    },
+                    "shareCount": {
+                        "id": "/properties/Data/items/properties/shareCount",
+                        "type": "integer"
+                    },
+                    "storage": {
+                        "id": "/properties/Data/items/properties/storage",
+                        "type": "integer"
+                    },
+                    "video": {
+                        "id": "/properties/Data/items/properties/video",
+                        "type": "string"
+                    },
+                    "videoData": {
+                        "id": "/properties/Data/items/properties/videoData",
+                        "type": "null"
+                    }
+                },
+                "type": "object"
+            },
+            "type": "array"
+        },
+        "Message": {
+            "id": "/properties/Message",
+            "type": "string"
+        },
+        "Success": {
+            "id": "/properties/Success",
+            "type": "boolean"
+        }
+    },
+    "type": "object"
+}

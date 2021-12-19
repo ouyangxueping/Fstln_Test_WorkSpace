@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "Value": {
+      "type": "object",
+      "properties": {
+        "Id": {
+          "type": "integer"
+        },
+        "Name": {
+          "type": "string"
+        },
+        "Version": {
+          "type": "string"
+        },
+        "DownloadUrl": {
+          "type": "string"
+        },
+        "Description": {
+          "type": "string"
+        },
+        "VersionName": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "Id",
+        "Name",
+        "Version",
+        "DownloadUrl",
+        "Description",
+        "VersionName"
+      ]
+    },
+    "Message": {
+      "type": "null"
+    },
+    "Success": {
+      "type": "boolean"
+    },
+    "Code": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "Value",
+    "Message",
+    "Success",
+    "Code"
+  ]
+}

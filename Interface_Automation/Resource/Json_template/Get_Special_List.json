@@ -1,0 +1,131 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "PageNo": {
+      "type": "integer"
+    },
+    "PageSize": {
+      "type": "integer"
+    },
+    "Total": {
+      "type": "integer"
+    },
+    "Data": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "SpecialId": {
+            "type": "integer"
+          },
+          "Platform": {
+            "type": "integer"
+          },
+          "Title": {
+            "type": "string"
+          },
+          "TitleImageUrl": {
+            "type": "string"
+          },
+          "TitleNormalImageUrl": {
+            "type": "string"
+          },
+          "Issuer": {
+            "type": "string"
+          },
+          "IssuerHeadImageUrl": {
+            "type": "string"
+          },
+          "LinkUrl": {
+            "type": "string"
+          },
+          "DisplaySequence": {
+            "type": "integer"
+          },
+          "AuditTime": {
+            "type": "string"
+          },
+          "OnlineTime": {
+            "type": "string"
+          },
+          "OfflineTime": {
+            "type": "string"
+          },
+          "TemplateId": {
+            "type": "integer"
+          },
+          "lstControls": {
+            "type": "null"
+          },
+          "ShopId": {
+            "type": "integer"
+          },
+          "ShopName": {
+            "type": "null"
+          },
+          "StoreId": {
+            "type": "integer"
+          },
+          "StoreName": {
+            "type": "null"
+          },
+          "VideoId": {
+            "type": "integer"
+          },
+          "VideoName": {
+            "type": "null"
+          },
+          "ImgMax414": {
+            "type": "null"
+          },
+          "H5Video": {
+            "type": "null"
+          }
+        },
+        "required": [
+          "SpecialId",
+          "Platform",
+          "Title",
+          "TitleImageUrl",
+          "TitleNormalImageUrl",
+          "Issuer",
+          "IssuerHeadImageUrl",
+          "LinkUrl",
+          "DisplaySequence",
+          "AuditTime",
+          "OnlineTime",
+          "OfflineTime",
+          "TemplateId",
+          "lstControls",
+          "ShopId",
+          "ShopName",
+          "StoreId",
+          "StoreName",
+          "VideoId",
+          "VideoName",
+          "ImgMax414",
+          "H5Video"
+        ]
+      }
+    },
+    "Message": {
+      "type": "string"
+    },
+    "Success": {
+      "type": "boolean"
+    },
+    "Code": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "PageNo",
+    "PageSize",
+    "Total",
+    "Data",
+    "Message",
+    "Success",
+    "Code"
+  ]
+}

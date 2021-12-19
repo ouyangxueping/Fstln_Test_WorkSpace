@@ -1,0 +1,86 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "definitions": {},
+    "id": "http://example.com/example.json",
+    "properties": {
+        "Code": {
+            "id": "/properties/Code",
+            "type": "integer"
+        },
+        "Data": {
+            "id": "/properties/Data",
+            "items": {
+                "id": "/properties/Data/items",
+                "properties": {
+                    "BusinessType": {
+                        "id": "/properties/Data/items/properties/BusinessType",
+                        "type": "string"
+                    },
+                    "LiveRoomId": {
+                        "id": "/properties/Data/items/properties/LiveRoomId",
+                        "type": "integer"
+                    },
+                    "OnlineCount": {
+                        "id": "/properties/Data/items/properties/OnlineCount",
+                        "type": "integer"
+                    },
+                    "Platform": {
+                        "id": "/properties/Data/items/properties/Platform",
+                        "type": "integer"
+                    },
+                    "ProductId": {
+                        "id": "/properties/Data/items/properties/ProductId",
+                        "type": "integer"
+                    },
+                    "ReplyToDanmu": {
+                        "id": "/properties/Data/items/properties/ReplyToDanmu",
+                        "type": "null"
+                    },
+                    "SendTime": {
+                        "id": "/properties/Data/items/properties/SendTime",
+                        "type": "string"
+                    },
+                    "SendTimeDescription": {
+                        "id": "/properties/Data/items/properties/SendTimeDescription",
+                        "type": "string"
+                    },
+                    "SendTimeDisplay": {
+                        "id": "/properties/Data/items/properties/SendTimeDisplay",
+                        "type": "string"
+                    },
+                    "SendTimeTS": {
+                        "id": "/properties/Data/items/properties/SendTimeTS",
+                        "type": "integer"
+                    },
+                    "ServerDateTimeNow": {
+                        "id": "/properties/Data/items/properties/ServerDateTimeNow",
+                        "type": "string"
+                    },
+                    "ServerDateTimeNowDisplay": {
+                        "id": "/properties/Data/items/properties/ServerDateTimeNowDisplay",
+                        "type": "string"
+                    },
+                    "ShopId": {
+                        "id": "/properties/Data/items/properties/ShopId",
+                        "type": "integer"
+                    },
+                    "ShopName": {
+                        "id": "/properties/Data/items/properties/ShopName",
+                        "type": "string"
+                    }
+                },
+                "type": "object"
+            },
+            "type": "array"
+        },
+        "Message": {
+            "id": "/properties/Message",
+            "type": "string"
+        },
+        "Success": {
+            "id": "/properties/Success",
+            "type": "boolean"
+        }
+    },
+    "type": "object"
+}

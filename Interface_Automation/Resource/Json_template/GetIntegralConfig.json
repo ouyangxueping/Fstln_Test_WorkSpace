@@ -1,0 +1,96 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "Value": {
+      "type": "object",
+      "properties": {
+        "SlideImagesList": {
+          "type": "array",
+          "items": {}
+        },
+        "AdvertisingList": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "Id": {
+                "type": "integer"
+              },
+              "StoreId": {
+                "type": "integer"
+              },
+              "DeviceType": {
+                "type": "integer"
+              },
+              "CommonId": {
+                "type": "integer"
+              },
+              "ProductName": {
+                "type": "null"
+              },
+              "Type": {
+                "type": "integer"
+              },
+              "ImageUrl": {
+                "type": "string"
+              },
+              "ImageFullUrl": {
+                "type": "string"
+              },
+              "LinkUrl": {
+                "type": "string"
+              },
+              "Description": {
+                "type": "string"
+              },
+              "OrderNum": {
+                "type": "integer"
+              },
+              "OperatorId": {
+                "type": "integer"
+              },
+              "OperateTime": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "Id",
+              "StoreId",
+              "DeviceType",
+              "CommonId",
+              "ProductName",
+              "Type",
+              "ImageUrl",
+              "ImageFullUrl",
+              "LinkUrl",
+              "Description",
+              "OrderNum",
+              "OperatorId",
+              "OperateTime"
+            ]
+          }
+        }
+      },
+      "required": [
+        "SlideImagesList",
+        "AdvertisingList"
+      ]
+    },
+    "Message": {
+      "type": "string"
+    },
+    "Success": {
+      "type": "boolean"
+    },
+    "Code": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "Value",
+    "Message",
+    "Success",
+    "Code"
+  ]
+}

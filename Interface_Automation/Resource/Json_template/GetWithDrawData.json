@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "Value": {
+      "type": "object",
+      "properties": {
+        "Id": {
+          "type": "integer"
+        },
+        "MemberId": {
+          "type": "integer"
+        },
+        "WithdrawAmount": {
+          "type": "number"
+        },
+        "ProcessingAmount": {
+          "type": "number"
+        },
+        "AvailableWithdrawAmount": {
+          "type": "number"
+        },
+        "SettledAmount": {
+          "type": "number"
+        },
+        "FreezeAmount": {
+          "type": "number"
+        },
+        "AvailableAmount": {
+          "type": "number"
+        },
+        "UpdateDate": {
+          "type": "string"
+        },
+        "Website": {
+          "type": "integer"
+        },
+        "WebsiteName": {
+          "type": "string"
+        },
+        "IsProcessing": {
+          "type": "integer"
+        },
+        "WithdrawStatus": {
+          "type": "integer"
+        },
+        "LastWithdrawAmount": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "Id",
+        "MemberId",
+        "MemberName",
+        "WithdrawAmount",
+        "ProcessingAmount",
+        "AvailableWithdrawAmount",
+        "SettledAmount",
+        "FreezeAmount",
+        "AvailableAmount",
+        "UpdateDate",
+        "Website",
+        "WebsiteName",
+        "IsProcessing",
+        "WithdrawStatus",
+        "LastWithdrawAmount"
+      ]
+    },
+    "Message": {
+      "type": "string"
+    },
+    "Success": {
+      "type": "boolean"
+    },
+    "Code": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "Value",
+    "Message",
+    "Success",
+    "Code"
+  ]
+}

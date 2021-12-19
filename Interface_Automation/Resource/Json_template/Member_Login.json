@@ -1,0 +1,392 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "definitions": {},
+    "id": "http://example.com/example.json",
+    "properties": {
+        "BindingEmail": {
+            "id": "/properties/BindingEmail",
+            "type": "string"
+        },
+        "BindingPhone": {
+            "id": "/properties/BindingPhone",
+            "type": "string"
+        },
+        "CartViewModel": {
+            "id": "/properties/CartViewModel",
+            "type": "null"
+        },
+        "CellPhone": {
+            "id": "/properties/CellPhone",
+            "type": "string"
+        },
+        "ConcernedShopIds": {
+            "id": "/properties/ConcernedShopIds",
+            "items": {},
+            "type": "array"
+        },
+        "FavoritedStoreIds": {
+            "id": "/properties/FavoritedStoreIds",
+            "items": {},
+            "type": "array"
+        },
+        "FinishedOrderCount": {
+            "id": "/properties/FinishedOrderCount",
+            "type": "integer"
+        },
+        "GlobalUserId": {
+            "id": "/properties/GlobalUserId",
+            "type": "integer"
+        },
+        "Id": {
+            "id": "/properties/Id",
+            "type": "integer"
+        },
+        "Message": {
+            "id": "/properties/Message",
+            "type": "string"
+        },
+        "Photo": {
+            "id": "/properties/Photo",
+            "type": "string"
+        },
+        "PhotoUrl": {
+            "id": "/properties/PhotoUrl",
+            "type": "string"
+        },
+        "PraisedVideoIds": {
+            "id": "/properties/PraisedVideoIds",
+            "items": {},
+            "type": "array"
+        },
+        "RealName": {
+            "id": "/properties/RealName",
+            "type": "string"
+        },
+        "RefundOrderCount": {
+            "id": "/properties/RefundOrderCount",
+            "type": "integer"
+        },
+        "SubscribedLiveRoomList": {
+            "id": "/properties/SubscribedLiveRoomList",
+            "items": {
+                "id": "/properties/SubscribedLiveRoomList/items",
+                "properties": {
+                    "AlertStatus": {
+                        "id": "/properties/SubscribedLiveRoomList/items/properties/AlertStatus",
+                        "type": "integer"
+                    },
+                    "AlreadyPraised": {
+                        "id": "/properties/SubscribedLiveRoomList/items/properties/AlreadyPraised",
+                        "type": "boolean"
+                    },
+                    "CustomerService": {
+                        "id": "/properties/SubscribedLiveRoomList/items/properties/CustomerService",
+                        "type": "null"
+                    },
+                    "DanmuEnable": {
+                        "id": "/properties/SubscribedLiveRoomList/items/properties/DanmuEnable",
+                        "type": "integer"
+                    },
+                    "Introduction": {
+                        "id": "/properties/SubscribedLiveRoomList/items/properties/Introduction",
+                        "type": "null"
+                    },
+                    "IsConcernedShop": {
+                        "id": "/properties/SubscribedLiveRoomList/items/properties/IsConcernedShop",
+                        "type": "boolean"
+                    },
+                    "IsFree": {
+                        "id": "/properties/SubscribedLiveRoomList/items/properties/IsFree",
+                        "type": "boolean"
+                    },
+                    "IsRefreshTurnOn": {
+                        "id": "/properties/SubscribedLiveRoomList/items/properties/IsRefreshTurnOn",
+                        "type": "boolean"
+                    },
+                    "LiveActualEndTime": {
+                        "id": "/properties/SubscribedLiveRoomList/items/properties/LiveActualEndTime",
+                        "type": "null"
+                    },
+                    "LiveActualStartTime": {
+                        "id": "/properties/SubscribedLiveRoomList/items/properties/LiveActualStartTime",
+                        "type": "null"
+                    },
+                    "LiveAddress": {
+                        "id": "/properties/SubscribedLiveRoomList/items/properties/LiveAddress",
+                        "type": "null"
+                    },
+                    "LiveAddress_H5": {
+                        "id": "/properties/SubscribedLiveRoomList/items/properties/LiveAddress_H5",
+                        "type": "null"
+                    },
+                    "LiveAddress_H5_HD": {
+                        "id": "/properties/SubscribedLiveRoomList/items/properties/LiveAddress_H5_HD",
+                        "type": "string"
+                    },
+                    "LiveAddress_H5_SD": {
+                        "id": "/properties/SubscribedLiveRoomList/items/properties/LiveAddress_H5_SD",
+                        "type": "string"
+                    },
+                    "LiveAddress_HD": {
+                        "id": "/properties/SubscribedLiveRoomList/items/properties/LiveAddress_HD",
+                        "type": "string"
+                    },
+                    "LiveAddress_SD": {
+                        "id": "/properties/SubscribedLiveRoomList/items/properties/LiveAddress_SD",
+                        "type": "string"
+                    },
+                    "LiveEndTime": {
+                        "id": "/properties/SubscribedLiveRoomList/items/properties/LiveEndTime",
+                        "type": "string"
+                    },
+                    "LiveEndTimeTS": {
+                        "id": "/properties/SubscribedLiveRoomList/items/properties/LiveEndTimeTS",
+                        "type": "integer"
+                    },
+                    "LiveRoomId": {
+                        "id": "/properties/SubscribedLiveRoomList/items/properties/LiveRoomId",
+                        "type": "integer"
+                    },
+                    "LiveRoomLogo": {
+                        "id": "/properties/SubscribedLiveRoomList/items/properties/LiveRoomLogo",
+                        "type": "string"
+                    },
+                    "LiveRoomLogoFullPath": {
+                        "id": "/properties/SubscribedLiveRoomList/items/properties/LiveRoomLogoFullPath",
+                        "type": "string"
+                    },
+                    "LiveRoomName": {
+                        "id": "/properties/SubscribedLiveRoomList/items/properties/LiveRoomName",
+                        "type": "string"
+                    },
+                    "LiveRoomStatus": {
+                        "id": "/properties/SubscribedLiveRoomList/items/properties/LiveRoomStatus",
+                        "type": "integer"
+                    },
+                    "LiveRoomStatusString": {
+                        "id": "/properties/SubscribedLiveRoomList/items/properties/LiveRoomStatusString",
+                        "type": "string"
+                    },
+                    "LiveRoomStatusValue": {
+                        "id": "/properties/SubscribedLiveRoomList/items/properties/LiveRoomStatusValue",
+                        "type": "integer"
+                    },
+                    "LiveRoomTitle": {
+                        "id": "/properties/SubscribedLiveRoomList/items/properties/LiveRoomTitle",
+                        "type": "string"
+                    },
+                    "LiveStartTime": {
+                        "id": "/properties/SubscribedLiveRoomList/items/properties/LiveStartTime",
+                        "type": "string"
+                    },
+                    "LiveStartTimeEndTime": {
+                        "id": "/properties/SubscribedLiveRoomList/items/properties/LiveStartTimeEndTime",
+                        "type": "string"
+                    },
+                    "LiveStartTimeTS": {
+                        "id": "/properties/SubscribedLiveRoomList/items/properties/LiveStartTimeTS",
+                        "type": "integer"
+                    },
+                    "OnlineCount": {
+                        "id": "/properties/SubscribedLiveRoomList/items/properties/OnlineCount",
+                        "type": "integer"
+                    },
+                    "PayStatus": {
+                        "id": "/properties/SubscribedLiveRoomList/items/properties/PayStatus",
+                        "type": "integer"
+                    },
+                    "PraisedCount": {
+                        "id": "/properties/SubscribedLiveRoomList/items/properties/PraisedCount",
+                        "type": "integer"
+                    },
+                    "ProductList": {
+                        "id": "/properties/SubscribedLiveRoomList/items/properties/ProductList",
+                        "type": "null"
+                    },
+                    "RefreshTurnCount": {
+                        "id": "/properties/SubscribedLiveRoomList/items/properties/RefreshTurnCount",
+                        "type": "integer"
+                    },
+                    "RefundStatus": {
+                        "id": "/properties/SubscribedLiveRoomList/items/properties/RefundStatus",
+                        "type": "integer"
+                    },
+                    "ReplayUrl": {
+                        "id": "/properties/SubscribedLiveRoomList/items/properties/ReplayUrl",
+                        "type": "null"
+                    },
+                    "ReplayUrl_H5": {
+                        "id": "/properties/SubscribedLiveRoomList/items/properties/ReplayUrl_H5",
+                        "type": "null"
+                    },
+                    "RotateInterval": {
+                        "id": "/properties/SubscribedLiveRoomList/items/properties/RotateInterval",
+                        "type": "null"
+                    },
+                    "ShopId": {
+                        "id": "/properties/SubscribedLiveRoomList/items/properties/ShopId",
+                        "type": "integer"
+                    },
+                    "SubscribeId": {
+                        "id": "/properties/SubscribedLiveRoomList/items/properties/SubscribeId",
+                        "type": "integer"
+                    },
+                    "SubscribeTime": {
+                        "id": "/properties/SubscribedLiveRoomList/items/properties/SubscribeTime",
+                        "type": "string"
+                    },
+                    "SubscribedStatus": {
+                        "id": "/properties/SubscribedLiveRoomList/items/properties/SubscribedStatus",
+                        "type": "boolean"
+                    },
+                    "TicketPrice": {
+                        "id": "/properties/SubscribedLiveRoomList/items/properties/TicketPrice",
+                        "type": "number"
+                    },
+                    "TrailerVideoId": {
+                        "id": "/properties/SubscribedLiveRoomList/items/properties/TrailerVideoId",
+                        "type": "integer"
+                    }
+                },
+                "required": [
+                    "TicketPrice",
+                    "LiveRoomId",
+                    "TrailerImageFullPath_414",
+                    "ShopId",
+                    "AlreadyPraised",
+                    "LiveEndTimeTS",
+                    "LiveEndTime",
+                    "IsRefreshTurnOn",
+                    "TrailerImageFullPath",
+                    "LiveActualStartTime",
+                    "AlertStatus",
+                    "LiveStartTime",
+                    "CustomerService",
+                    "ReplayUrl_H5",
+                    "LiveActualEndTime",
+                    "Introduction",
+                    "PayStatus",
+                    "TrailerAddress_H5",
+                    "LiveAddress_SD",
+                    "LiveAddress_HD",
+                    "IsConcernedShop",
+                    "DanmuEnable",
+                    "LiveRoomName",
+                    "SubscribeTime",
+                    "RefundStatus",
+                    "TrailerImage_414",
+                    "SubscribeId",
+                    "PraisedCount",
+                    "LiveAddress_H5",
+                    "TrailerAddress",
+                    "LiveStartTimeTS",
+                    "IsFree",
+                    "RefreshTurnCount",
+                    "TrailerVideoId",
+                    "RotateInterval",
+                    "LiveRoomStatus",
+                    "OnlineCount",
+                    "ReplayUrl",
+                    "ProductList",
+                    "TrailerAddress_MP4",
+                    "LiveAddress_H5_HD",
+                    "LiveRoomLogoFullPath",
+                    "LiveRoomLogo",
+                    "LiveRoomTitle",
+                    "LiveRoomStatusValue",
+                    "LiveAddress",
+                    "LiveRoomStatusString",
+                    "SubscribedStatus",
+                    "LiveAddress_H5_SD",
+                    "TrailerImage",
+                    "LiveStartTimeEndTime"
+                ],
+                "type": "object"
+            },
+            "type": "array"
+        },
+        "Success": {
+            "id": "/properties/Success",
+            "type": "boolean"
+        },
+        "TagIds": {
+            "id": "/properties/TagIds",
+            "items": {},
+            "type": "array"
+        },
+        "Token": {
+            "id": "/properties/Token",
+            "type": "string"
+        },
+        "UserName": {
+            "id": "/properties/UserName",
+            "type": "string"
+        },
+        "UserNickName": {
+            "id": "/properties/UserNickName",
+            "type": "string"
+        },
+        "VideoAuthList": {
+            "id": "/properties/VideoAuthList",
+            "type": "null"
+        },
+        "VipDiscountForProducts": {
+            "id": "/properties/VipDiscountForProducts",
+            "type": "null"
+        },
+        "WaitDeliveryOrderCount": {
+            "id": "/properties/WaitDeliveryOrderCount",
+            "type": "integer"
+        },
+        "WaitingForPayOrderCount": {
+            "id": "/properties/WaitingForPayOrderCount",
+            "type": "integer"
+        },
+        "WaitingForRecieveOrderCount": {
+            "id": "/properties/WaitingForRecieveOrderCount",
+            "type": "integer"
+        },
+        "photo": {
+            "id": "/properties/photo",
+            "type": "string"
+        }
+    },
+    "required": [
+        "UserName",
+        "ReceivePhone",
+        "RegionFullName",
+        "photo",
+        "RefundOrderCount",
+        "FavoritedStoreIds",
+        "ConcernedShopIds",
+        "BindingPhone",
+        "CartViewModel",
+        "RegionIdPath",
+        "Email",
+        "SubscribedLiveRoomList",
+        "FinishedOrderCount",
+        "PhotoUrl",
+        "WaitingForRecieveOrderCount",
+        "BindingEmail",
+        "Address",
+        "RealName",
+        "Success",
+        "VipDiscountForProducts",
+        "ReceiveAddress",
+        "VideoAuthList",
+        "Token",
+        "WaitingForPayOrderCount",
+        "WaitDeliveryOrderCount",
+        "QQ",
+        "CellPhone",
+        "PraisedVideoIds",
+        "Photo",
+        "UserNickName",
+        "GlobalUserId",
+        "ReceiveName",
+        "TagIds",
+        "Message",
+        "Id"
+    ],
+    "type": "object"
+}

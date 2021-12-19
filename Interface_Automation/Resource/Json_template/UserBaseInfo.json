@@ -1,0 +1,121 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "Value": {
+      "type": "object",
+      "properties": {
+        "Id": {
+          "type": "integer"
+        },
+        "MemberId": {
+          "type": "integer"
+        },
+        "UserName": {
+          "type": "string"
+        },
+        "LastLoginTime": {
+          "type": "string"
+        },
+        "ContactEmail": {
+          "type": "string"
+        },
+        "ContactPhone": {
+          "type": "string"
+        },
+        "RealName": {
+          "type": "string"
+        },
+        "CardId": {
+          "type": "string"
+        },
+        "Mobile": {
+          "type": "string"
+        },
+        "Photo1": {
+          "type": "string"
+        },
+        "FaceOfIdCard": {
+          "type": "string"
+        },
+        "Photo2": {
+          "type": "string"
+        },
+        "BackOfIdCard": {
+          "type": "string"
+        },
+        "Photo3": {
+          "type": "string"
+        },
+        "HandheldIDCard": {
+          "type": "string"
+        },
+        "AuditStatus": {
+          "type": "integer"
+        },
+        "Status": {
+          "type": "string"
+        },
+        "BankAccountNumber": {
+          "type": "string"
+        },
+        "BankAccountName": {
+          "type": "string"
+        },
+        "BankName": {
+          "type": "string"
+        },
+        "AuditTime": {
+          "type": "string"
+        },
+        "CreateTime": {
+          "type": "string"
+        },
+        "CreateTimeDisplay": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "Id",
+        "MemberId",
+        "UserName",
+        "LastLoginTime",
+        "ContactEmail",
+        "ContactPhone",
+        "RealName",
+        "CardId",
+        "Mobile",
+        "Photo1",
+        "FaceOfIdCard",
+        "Photo2",
+        "BackOfIdCard",
+        "Photo3",
+        "HandheldIDCard",
+        "AuditStatus",
+        "Status",
+        "RefuseReason",
+        "BankAccountNumber",
+        "BankAccountName",
+        "BankName",
+        "AuditTime",
+        "CreateTime",
+        "CreateTimeDisplay"
+      ]
+    },
+    "Message": {
+      "type": "string"
+    },
+    "Success": {
+      "type": "boolean"
+    },
+    "Code": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "Value",
+    "Message",
+    "Success",
+    "Code"
+  ]
+}

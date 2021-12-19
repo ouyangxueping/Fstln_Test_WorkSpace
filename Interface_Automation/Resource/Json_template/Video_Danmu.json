@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "Data": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "MemberId": {
+            "type": "integer"
+          },
+          "Text": {
+            "type": "string"
+          },
+          "ShowTimeSecond": {
+            "type": "number"
+          },
+          "VideoId": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "MemberId",
+          "Text",
+          "ShowTimeSecond",
+          "VideoId"
+        ]
+      }
+    },
+    "Message": {
+      "type": "null"
+    },
+    "Success": {
+      "type": "boolean"
+    },
+    "Code": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "Data",
+    "Message",
+    "Success",
+    "Code"
+  ]
+}

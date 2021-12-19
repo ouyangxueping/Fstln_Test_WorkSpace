@@ -1,0 +1,147 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "Value": {
+      "type": "object",
+      "properties": {
+        "Products": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "ShopId": {
+                "type": "integer"
+              },
+              "ShopName": {
+                "type": "string"
+              },
+              "IsChecked": {
+                "type": "boolean"
+              },
+              "CartViewModelList": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "StoreId": {
+                      "type": "integer"
+                    },
+                    "CartItemId": {
+                      "type": "integer"
+                    },
+                    "Color": {
+                      "type": "string"
+                    },
+                    "Quantity": {
+                      "type": "integer"
+                    },
+                    "ProductId": {
+                      "type": "integer"
+                    },
+                    "ImageUrl": {
+                      "type": "string"
+                    },
+                    "ProductName": {
+                      "type": "string"
+                    },
+                    "Price": {
+                      "type": "number"
+                    },
+                    "ShopId": {
+                      "type": "integer"
+                    },
+                    "ShopName": {
+                      "type": "string"
+                    },
+                    "Size": {
+                      "type": "string"
+                    },
+                    "SkuId": {
+                      "type": "string"
+                    },
+                    "Version": {
+                      "type": "string"
+                    },
+                    "VShopId": {
+                      "type": "integer"
+                    },
+                    "IsApplyMemberDiscount": {
+                      "type": "boolean"
+                    },
+                    "Stock": {
+                      "type": "integer"
+                    },
+                    "Status": {
+                      "type": "integer"
+                    },
+                    "IsChecked": {
+                      "type": "boolean"
+                    },
+                    "Promotion": {
+                      "type": "null"
+                    }
+                  },
+                  "required": [
+                    "StoreId",
+                    "CartItemId",
+                    "Color",
+                    "Quantity",
+                    "ProductId",
+                    "ImageUrl",
+                    "ProductName",
+                    "Price",
+                    "ShopId",
+                    "ShopName",
+                    "Size",
+                    "SkuId",
+                    "Version",
+                    "VShopId",
+                    "IsApplyMemberDiscount",
+                    "Stock",
+                    "ShopLogo",
+                    "Status",
+                    "IsChecked",
+                    "Promotion"
+                  ]
+                }
+              }
+            },
+            "required": [
+              "ShopId",
+              "ShopName",
+              "IsChecked",
+              "CartViewModelList"
+            ]
+          }
+        },
+        "TotalAmount": {
+          "type": "number"
+        },
+        "TotalCount": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "Products",
+        "TotalAmount",
+        "TotalCount"
+      ]
+    },
+    "Message": {
+      "type": "null"
+    },
+    "Success": {
+      "type": "boolean"
+    },
+    "Code": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "Value",
+    "Message",
+    "Success",
+    "Code"
+  ]
+}

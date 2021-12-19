@@ -1,0 +1,346 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "definitions": {},
+    "id": "http://example.com/example.json",
+    "properties": {
+        "Code": {
+            "id": "/properties/Code",
+            "type": "integer"
+        },
+        "Message": {
+            "id": "/properties/Message",
+            "type": "null"
+        },
+        "Success": {
+            "id": "/properties/Success",
+            "type": "boolean"
+        },
+        "Value": {
+            "id": "/properties/Value",
+            "properties": {
+                "HeadCarousels": {
+                    "id": "/properties/Value/properties/HeadCarousels",
+                    "items": {
+                        "id": "/properties/Value/properties/HeadCarousels/items",
+                        "properties": {
+                            "AuditTime": {
+                                "id": "/properties/Value/properties/HeadCarousels/items/properties/AuditTime",
+                                "type": "string"
+                            },
+                            "Description": {
+                                "id": "/properties/Value/properties/HeadCarousels/items/properties/Description",
+                                "type": "string"
+                            },
+                            "DisplaySequence": {
+                                "id": "/properties/Value/properties/HeadCarousels/items/properties/DisplaySequence",
+                                "type": "integer"
+                            },
+                            "H5ImageAbsoluteUrl": {
+                                "id": "/properties/Value/properties/HeadCarousels/items/properties/H5ImageAbsoluteUrl",
+                                "type": "string"
+                            },
+                            "Id": {
+                                "id": "/properties/Value/properties/HeadCarousels/items/properties/Id",
+                                "type": "integer"
+                            },
+                            "ImageAbsoluteUrl": {
+                                "id": "/properties/Value/properties/HeadCarousels/items/properties/ImageAbsoluteUrl",
+                                "type": "string"
+                            },
+                            "ImageUrl": {
+                                "id": "/properties/Value/properties/HeadCarousels/items/properties/ImageUrl",
+                                "type": "string"
+                            },
+                            "LinkUrl": {
+                                "id": "/properties/Value/properties/HeadCarousels/items/properties/LinkUrl",
+                                "type": "string"
+                            },
+                            "ManagerId": {
+                                "id": "/properties/Value/properties/HeadCarousels/items/properties/ManagerId",
+                                "type": "integer"
+                            },
+                            "Platform": {
+                                "id": "/properties/Value/properties/HeadCarousels/items/properties/Platform",
+                                "type": "integer"
+                            },
+                            "ShopId": {
+                                "id": "/properties/Value/properties/HeadCarousels/items/properties/ShopId",
+                                "type": "integer"
+                            },
+                            "Type": {
+                                "id": "/properties/Value/properties/HeadCarousels/items/properties/Type",
+                                "type": "integer"
+                            }
+                        },
+                        "required": [
+                            "AuditTime",
+                            "Description",
+                            "Type",
+                            "DisplaySequence",
+                            "H5ImageAbsoluteUrl",
+                            "ShopId",
+                            "ManagerId",
+                            "Platform",
+                            "H5ImageUrl",
+                            "ImageUrl",
+                            "ImageAbsoluteUrl",
+                            "LinkUrl",
+                            "Id"
+                        ],
+                        "type": "object"
+                    },
+                    "type": "array"
+                },
+                "HotProducts": {
+                    "id": "/properties/Value/properties/HotProducts",
+                    "items": {
+                        "id": "/properties/Value/properties/HotProducts/items",
+                        "properties": {
+                            "StoreId": {
+                                "id": "/properties/Value/properties/HotProducts/items/properties/StoreId",
+                                "type": "integer"
+                            },
+                            "auditStatus": {
+                                "id": "/properties/Value/properties/HotProducts/items/properties/auditStatus",
+                                "type": "integer"
+                            },
+                            "id": {
+                                "id": "/properties/Value/properties/HotProducts/items/properties/id",
+                                "type": "integer"
+                            },
+                            "imgUrl": {
+                                "id": "/properties/Value/properties/HotProducts/items/properties/imgUrl",
+                                "type": "string"
+                            },
+                            "name": {
+                                "id": "/properties/Value/properties/HotProducts/items/properties/name",
+                                "type": "string"
+                            },
+                            "price": {
+                                "id": "/properties/Value/properties/HotProducts/items/properties/price",
+                                "type": "number"
+                            },
+                            "saleStatus": {
+                                "id": "/properties/Value/properties/HotProducts/items/properties/saleStatus",
+                                "type": "integer"
+                            },
+                            "shopId": {
+                                "id": "/properties/Value/properties/HotProducts/items/properties/shopId",
+                                "type": "integer"
+                            }
+                        },
+                        "required": [
+                            "productCode",
+                            "auditReason",
+                            "categoryName",
+                            "auditStatus",
+                            "price",
+                            "StoreId",
+                            "shopId",
+                            "createTime",
+                            "url",
+                            "state",
+                            "brandName",
+                            "saleStatus",
+                            "shopName",
+                            "id",
+                            "imgUrl",
+                            "name"
+                        ],
+                        "type": "object"
+                    },
+                    "type": "array"
+                },
+                "HotVideos": {
+                    "id": "/properties/Value/properties/HotVideos",
+                    "items": {
+                        "id": "/properties/Value/properties/HotVideos/items",
+                        "properties": {
+                            "BePurchased": {
+                                "id": "/properties/Value/properties/HotVideos/items/properties/BePurchased",
+                                "type": "boolean"
+                            },
+                            "ClickNum": {
+                                "id": "/properties/Value/properties/HotVideos/items/properties/ClickNum",
+                                "type": "string"
+                            },
+                            "CommentCount": {
+                                "id": "/properties/Value/properties/HotVideos/items/properties/CommentCount",
+                                "type": "integer"
+                            },
+                            "DtUpdateTime": {
+                                "id": "/properties/Value/properties/HotVideos/items/properties/DtUpdateTime",
+                                "type": "string"
+                            },
+                            "FavoriteNum": {
+                                "id": "/properties/Value/properties/HotVideos/items/properties/FavoriteNum",
+                                "type": "integer"
+                            },
+                            "Id": {
+                                "id": "/properties/Value/properties/HotVideos/items/properties/Id",
+                                "type": "integer"
+                            },
+                            "Img": {
+                                "id": "/properties/Value/properties/HotVideos/items/properties/Img",
+                                "type": "string"
+                            },
+                            "ImgMax": {
+                                "id": "/properties/Value/properties/HotVideos/items/properties/ImgMax",
+                                "type": "string"
+                            },
+                            "IsFavoritedByCurUser": {
+                                "id": "/properties/Value/properties/HotVideos/items/properties/IsFavoritedByCurUser",
+                                "type": "boolean"
+                            },
+                            "IsPraisedByCurUser": {
+                                "id": "/properties/Value/properties/HotVideos/items/properties/IsPraisedByCurUser",
+                                "type": "boolean"
+                            },
+                            "Name": {
+                                "id": "/properties/Value/properties/HotVideos/items/properties/Name",
+                                "type": "string"
+                            },
+                            "PartnerUserId": {
+                                "id": "/properties/Value/properties/HotVideos/items/properties/PartnerUserId",
+                                "type": "integer"
+                            },
+                            "PlayCount": {
+                                "id": "/properties/Value/properties/HotVideos/items/properties/PlayCount",
+                                "type": "integer"
+                            },
+                            "PraiseCount": {
+                                "id": "/properties/Value/properties/HotVideos/items/properties/PraiseCount",
+                                "type": "integer"
+                            },
+                            "ProductNameMatchCount": {
+                                "id": "/properties/Value/properties/HotVideos/items/properties/ProductNameMatchCount",
+                                "type": "integer"
+                            },
+                            "RecommendedValue": {
+                                "id": "/properties/Value/properties/HotVideos/items/properties/RecommendedValue",
+                                "type": "number"
+                            },
+                            "SearchKeyWordMatchValue": {
+                                "id": "/properties/Value/properties/HotVideos/items/properties/SearchKeyWordMatchValue",
+                                "type": "number"
+                            },
+                            "ShareCount": {
+                                "id": "/properties/Value/properties/HotVideos/items/properties/ShareCount",
+                                "type": "integer"
+                            },
+                            "ShopId": {
+                                "id": "/properties/Value/properties/HotVideos/items/properties/ShopId",
+                                "type": "integer"
+                            },
+                            "ShopNm": {
+                                "id": "/properties/Value/properties/HotVideos/items/properties/ShopNm",
+                                "type": "string"
+                            },
+                            "StoreDescriptionMatchCount": {
+                                "id": "/properties/Value/properties/HotVideos/items/properties/StoreDescriptionMatchCount",
+                                "type": "integer"
+                            },
+                            "StoreNameMatchCount": {
+                                "id": "/properties/Value/properties/HotVideos/items/properties/StoreNameMatchCount",
+                                "type": "integer"
+                            },
+                            "StrUpdateTime": {
+                                "id": "/properties/Value/properties/HotVideos/items/properties/StrUpdateTime",
+                                "type": "string"
+                            },
+                            "TagDisplaySequence": {
+                                "id": "/properties/Value/properties/HotVideos/items/properties/TagDisplaySequence",
+                                "type": "integer"
+                            },
+                            "TagId": {
+                                "id": "/properties/Value/properties/HotVideos/items/properties/TagId",
+                                "type": "integer"
+                            },
+                            "UpdateTime": {
+                                "id": "/properties/Value/properties/HotVideos/items/properties/UpdateTime",
+                                "type": "number"
+                            },
+                            "UserId": {
+                                "id": "/properties/Value/properties/HotVideos/items/properties/UserId",
+                                "type": "integer"
+                            },
+                            "VideoId": {
+                                "id": "/properties/Value/properties/HotVideos/items/properties/VideoId",
+                                "type": "integer"
+                            },
+                            "VideoNameMatchCount": {
+                                "id": "/properties/Value/properties/HotVideos/items/properties/VideoNameMatchCount",
+                                "type": "integer"
+                            }
+                        },
+                        "required": [
+                            "ShopName",
+                            "Img",
+                            "TagDisplaySequence",
+                            "IsPraisedByCurUser",
+                            "DtUpdateTime",
+                            "ImgMax",
+                            "ShopId",
+                            "Hot",
+                            "PriceMax",
+                            "Nm",
+                            "ImgSmall2",
+                            "ImgSmall1",
+                            "StoreNameMatchCount",
+                            "LstTags",
+                            "StrUpdateTime",
+                            "CommentCount",
+                            "UpdateTime",
+                            "ImgMax414",
+                            "PlayCount",
+                            "UserId",
+                            "PriceMin",
+                            "ClickNum",
+                            "TagName",
+                            "ShopLogo",
+                            "PraiseCount",
+                            "Desc",
+                            "VideoName",
+                            "VideoNameMatchCount",
+                            "Name",
+                            "BePurchased",
+                            "IsFavoritedByCurUser",
+                            "SelectedStoreIds",
+                            "StoreDescriptionMatchCount",
+                            "ShareCount",
+                            "ShopNm",
+                            "ProductNameMatchCount",
+                            "Price1",
+                            "PartnerUserId",
+                            "RecommendedValue",
+                            "TagId",
+                            "SearchKeyWordMatchValue",
+                            "VideoId",
+                            "LogoUrlWeixin",
+                            "Price2",
+                            "Pids",
+                            "Img301",
+                            "Id",
+                            "FavoriteNum"
+                        ],
+                        "type": "object"
+                    },
+                    "type": "array"
+                }
+            },
+            "required": [
+                "HeadCarousels",
+                "HotVideos",
+                "HotProducts"
+            ],
+            "type": "object"
+        }
+    },
+    "required": [
+        "Message",
+        "Code",
+        "Success",
+        "Value"
+    ],
+    "type": "object"
+}

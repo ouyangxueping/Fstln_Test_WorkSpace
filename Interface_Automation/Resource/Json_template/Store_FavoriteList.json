@@ -1,0 +1,77 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "Data": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "Id": {
+            "type": "integer"
+          },
+          "MemberId": {
+            "type": "integer"
+          },
+          "StoreId": {
+            "type": "integer"
+          },
+          "StoreName": {
+            "type": "string"
+          },
+          "VideoId": {
+            "type": "integer"
+          },
+          "ShopId": {
+            "type": "integer"
+          },
+          "ShopName": {
+            "type": "string"
+          },
+          "AddTime": {
+            "type": "string"
+          },
+          "ImageUrl": {
+            "type": "string"
+          },
+          "Valid": {
+            "type": "boolean"
+          },
+          "Tags": {
+            "type": "array",
+            "items": {}
+          }
+        },
+        "required": [
+          "Id",
+          "MemberId",
+          "StoreId",
+          "StoreName",
+          "VideoId",
+          "VideoName",
+          "ShopId",
+          "ShopName",
+          "AddTime",
+          "ImageUrl",
+          "Valid",
+          "Tags"
+        ]
+      }
+    },
+    "Message": {
+      "type": "string"
+    },
+    "Success": {
+      "type": "boolean"
+    },
+    "Code": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "Data",
+    "Message",
+    "Success",
+    "Code"
+  ]
+}

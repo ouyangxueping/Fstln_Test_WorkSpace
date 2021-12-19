@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "Data": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "Id": {
+            "type": "integer"
+          },
+          "ProductName": {
+            "type": "string"
+          },
+          "MinSalePrice": {
+            "type": "number"
+          },
+          "DistributionPrice": {
+            "type": "number"
+          },
+          "DistributionRatio": {
+            "type": "number"
+          },
+          "CheckDistributor": {
+            "type": "integer"
+          },
+          "ShopId": {
+            "type": "integer"
+          },
+          "ShopName": {
+            "type": "null"
+          },
+          "ImagePath": {
+            "type": "string"
+          },
+          "ImageFullPath": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "Id",
+          "ProductName",
+          "MinSalePrice",
+          "DistributionPrice",
+          "DistributionRatio",
+          "CheckDistributor",
+          "ShopId",
+          "ShopName",
+          "ImagePath",
+          "ImageFullPath"
+        ]
+      }
+    },
+    "Message": {
+      "type": "string"
+    },
+    "Success": {
+      "type": "boolean"
+    },
+    "Code": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "Data",
+    "Message",
+    "Success",
+    "Code"
+  ]
+}

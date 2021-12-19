@@ -1,0 +1,84 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "Value": {
+      "type": "object",
+      "properties": {
+        "Grade": {
+          "type": "integer"
+        },
+        "GradeName": {
+          "type": "string"
+        },
+        "Id": {
+          "type": "integer"
+        },
+        "Integral": {
+          "type": "integer"
+        },
+        "Exp": {
+          "type": "integer"
+        },
+        "Remark": {
+          "type": "null"
+        },
+        "ExpToNextGrade": {
+          "type": "integer"
+        },
+        "IsTopGrade": {
+          "type": "boolean"
+        },
+        "ExpThisGrade": {
+          "type": "integer"
+        },
+        "ExpNextGrade": {
+          "type": "integer"
+        },
+        "MemberId": {
+          "type": "integer"
+        },
+        "UserName": {
+          "type": "null"
+        },
+        "TopGradeExp": {
+          "type": "integer"
+        },
+        "GradePercentage": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "Grade",
+        "GradeName",
+        "Id",
+        "Integral",
+        "Exp",
+        "Remark",
+        "ExpToNextGrade",
+        "IsTopGrade",
+        "ExpThisGrade",
+        "ExpNextGrade",
+        "MemberId",
+        "UserName",
+        "TopGradeExp",
+        "GradePercentage"
+      ]
+    },
+    "Message": {
+      "type": "null"
+    },
+    "Success": {
+      "type": "boolean"
+    },
+    "Code": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "Value",
+    "Message",
+    "Success",
+    "Code"
+  ]
+}

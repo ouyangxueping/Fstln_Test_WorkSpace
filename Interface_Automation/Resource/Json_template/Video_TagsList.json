@@ -1,0 +1,58 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "definitions": {},
+    "id": "http://example.com/example.json",
+    "properties": {
+        "Code": {
+            "id": "/properties/Code",
+            "type": "integer"
+        },
+        "Data": {
+            "id": "/properties/Data",
+            "items": {
+                "id": "/properties/Data/items",
+                "properties": {
+                    "displaySequence": {
+                        "id": "/properties/Data/items/properties/displaySequence",
+                        "type": "integer"
+                    },
+                    "id": {
+                        "id": "/properties/Data/items/properties/id",
+                        "type": "integer"
+                    },
+                    "name": {
+                        "id": "/properties/Data/items/properties/name",
+                        "type": "string"
+                    },
+                    "userId": {
+                        "id": "/properties/Data/items/properties/userId",
+                        "type": "integer"
+                    }
+                },
+                "required": [
+                    "displaySequence",
+                    "userId",
+                    "id",
+                    "name"
+                ],
+                "type": "object"
+            },
+            "type": "array"
+        },
+        "Message": {
+            "id": "/properties/Message",
+            "type": "string"
+        },
+        "Success": {
+            "id": "/properties/Success",
+            "type": "boolean"
+        }
+    },
+    "required": [
+        "Message",
+        "Code",
+        "Data",
+        "Success"
+    ],
+    "type": "object"
+}

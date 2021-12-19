@@ -1,0 +1,109 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "Data": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "Id": {
+            "type": "integer"
+          },
+          "VideoId": {
+            "type": "integer"
+          },
+          "StoreId": {
+            "type": "integer"
+          },
+          "ShopId": {
+            "type": "integer"
+          },
+          "ReviewId": {
+            "type": "integer"
+          },
+          "ReviewUserId": {
+            "type": "integer"
+          },
+          "ReviewContent": {
+            "type": "string"
+          },
+          "ReviewDate": {
+            "type": "string"
+          },
+          "ReviewDateDisplay": {
+            "type": "string"
+          },
+          "ReplyDateDisplay": {
+            "type": "string"
+          },
+          "ReplyCount": {
+            "type": "integer"
+          },
+          "PraisedCount": {
+            "type": "integer"
+          },
+          "Photo": {
+            "type": "string"
+          },
+          "PhotoUrl": {
+            "type": "string"
+          },
+          "ImageUrl": {
+            "type": "string"
+          },
+          "IsHidden": {
+            "type": "integer"
+          },
+          "HasRead": {
+            "type": "boolean"
+          },
+          "Children": {
+            "type": "array",
+            "items": {}
+          },
+          "HasReplied": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "Id",
+          "VideoId",
+          "StoreId",
+          "ShopId",
+          "ReviewId",
+          "ReviewUserId",
+          "ReviewContent",
+          "ReviewDate",
+          "ReviewDateDisplay",
+          "ReplyDateDisplay",
+          "ReplyCount",
+          "PraisedCount",
+          "Photo",
+          "PhotoForApi",
+          "PhotoUrl",
+          "ImageUrl",
+          "IsHidden",
+          "HasRead",
+          "Children",
+          "HasReplied"
+        ]
+      }
+    },
+    "Message": {
+      "type": "string"
+    },
+    "Success": {
+      "type": "boolean"
+    },
+    "Code": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "Data",
+    "Message",
+    "Success",
+    "Code"
+  ]
+}

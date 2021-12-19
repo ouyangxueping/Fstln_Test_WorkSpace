@@ -1,0 +1,55 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "Data": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "Id": {
+            "type": "integer"
+          },
+          "MemberId": {
+            "type": "integer"
+          },
+          "ShopId": {
+            "type": "integer"
+          },
+          "ShopName": {
+            "type": "string"
+          },
+          "ShopLogo": {
+            "type": "string"
+          },
+          "ConcernedTime": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "Id",
+          "MemberId",
+          "ShopId",
+          "ShopName",
+          "ShopLogo",
+          "ConcernedTime"
+        ]
+      }
+    },
+    "Message": {
+      "type": "null"
+    },
+    "Success": {
+      "type": "boolean"
+    },
+    "Code": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "Data",
+    "Message",
+    "Success",
+    "Code"
+  ]
+}

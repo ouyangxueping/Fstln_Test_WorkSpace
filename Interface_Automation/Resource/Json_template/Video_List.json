@@ -1,0 +1,584 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#", 
+  "definitions": {}, 
+  "id": "http://example.com/example.json", 
+  "properties": {
+    "Code": {
+      "default": 0, 
+      "description": "An explanation about the purpose of this instance.", 
+      "examples": [
+        "0"
+      ], 
+      "id": "/properties/Code", 
+      "title": "The Code Schema.", 
+      "type": "integer"
+    }, 
+    "Data": {
+      "id": "/properties/Data", 
+      "items": {
+        "id": "/properties/Data/items", 
+        "properties": {
+          "BePurchased": {
+            "default": false, 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "False"
+            ], 
+            "id": "/properties/Data/items/properties/BePurchased", 
+            "title": "The Bepurchased Schema.", 
+            "type": "boolean"
+          }, 
+          "ClickNum": {
+            "default": "183", 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "183"
+            ], 
+            "id": "/properties/Data/items/properties/ClickNum", 
+            "title": "The Clicknum Schema.", 
+            "type": "string"
+          }, 
+          "CommentCount": {
+            "default": 30, 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "30"
+            ], 
+            "id": "/properties/Data/items/properties/CommentCount", 
+            "title": "The Commentcount Schema.", 
+            "type": "integer"
+          }, 
+          "Desc": {
+            "default": "\u9ec4\u5bb6\u6717\u6d4b\u8bd5\u64ad\u653e\u56680531-16\u9ec4\u5bb6\u6717\u6d4b\u8bd5\u64ad\u653e\u56680531-16\u9ec4\u5bb6\u6717\u6d4b\u8bd5\u64ad\u653e\u56680531-16", 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "\u9ec4\u5bb6\u6717\u6d4b\u8bd5\u64ad\u653e\u56680531-16\u9ec4\u5bb6\u6717\u6d4b\u8bd5\u64ad\u653e\u56680531-16\u9ec4\u5bb6\u6717\u6d4b\u8bd5\u64ad\u653e\u56680531-16"
+            ], 
+            "id": "/properties/Data/items/properties/Desc", 
+            "title": "The Desc Schema.", 
+            "type": "string"
+          }, 
+          "DtUpdateTime": {
+            "default": "2017-06-20T11:03:05Z", 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "2017-06-20T11:03:05Z"
+            ], 
+            "id": "/properties/Data/items/properties/DtUpdateTime", 
+            "title": "The Dtupdatetime Schema.", 
+            "type": "string"
+          }, 
+          "FavoriteNum": {
+            "default": 0, 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "0"
+            ], 
+            "id": "/properties/Data/items/properties/FavoriteNum", 
+            "title": "The Favoritenum Schema.", 
+            "type": "integer"
+          }, 
+          "Hot": {
+            "default": null, 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "None"
+            ], 
+            "id": "/properties/Data/items/properties/Hot", 
+            "title": "The Hot Schema.", 
+            "type": "null"
+          }, 
+          "Id": {
+            "default": 820, 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "820"
+            ], 
+            "id": "/properties/Data/items/properties/Id", 
+            "title": "The Id Schema.", 
+            "type": "integer"
+          }, 
+          "Img": {
+            "default": "https://test-1253203608.file.myqcloud.com//VideoImage/247/6998412b-372d-4eb8-8d17-3d2bd8d2b87f_247_crop_414.jpg", 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "https://test-1253203608.file.myqcloud.com//VideoImage/247/6998412b-372d-4eb8-8d17-3d2bd8d2b87f_247_crop_414.jpg"
+            ], 
+            "id": "/properties/Data/items/properties/Img", 
+            "title": "The Img Schema.", 
+            "type": "string"
+          }, 
+          "Img301": {
+            "default": null, 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "None"
+            ], 
+            "id": "/properties/Data/items/properties/Img301", 
+            "title": "The Img301 Schema.", 
+            "type": "null"
+          }, 
+          "ImgMax": {
+            "default": "https://test-1253203608.file.myqcloud.com//VideoImage/247/6998412b-372d-4eb8-8d17-3d2bd8d2b87f_247_crop.jpg", 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "https://test-1253203608.file.myqcloud.com//VideoImage/247/6998412b-372d-4eb8-8d17-3d2bd8d2b87f_247_crop.jpg"
+            ], 
+            "id": "/properties/Data/items/properties/ImgMax", 
+            "title": "The Imgmax Schema.", 
+            "type": "string"
+          }, 
+          "ImgMax414": {
+            "default": null, 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "None"
+            ], 
+            "id": "/properties/Data/items/properties/ImgMax414", 
+            "title": "The Imgmax414 Schema.", 
+            "type": "null"
+          }, 
+          "ImgSmall1": {
+            "default": null, 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "None"
+            ], 
+            "id": "/properties/Data/items/properties/ImgSmall1", 
+            "title": "The Imgsmall1 Schema.", 
+            "type": "null"
+          }, 
+          "ImgSmall2": {
+            "default": null, 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "None"
+            ], 
+            "id": "/properties/Data/items/properties/ImgSmall2", 
+            "title": "The Imgsmall2 Schema.", 
+            "type": "null"
+          }, 
+          "IsFavoritedByCurUser": {
+            "default": false, 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "False"
+            ], 
+            "id": "/properties/Data/items/properties/IsFavoritedByCurUser", 
+            "title": "The Isfavoritedbycuruser Schema.", 
+            "type": "boolean"
+          }, 
+          "IsPraisedByCurUser": {
+            "default": false, 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "False"
+            ], 
+            "id": "/properties/Data/items/properties/IsPraisedByCurUser", 
+            "title": "The Ispraisedbycuruser Schema.", 
+            "type": "boolean"
+          }, 
+          "LogoUrlWeixin": {
+            "default": null, 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "None"
+            ], 
+            "id": "/properties/Data/items/properties/LogoUrlWeixin", 
+            "title": "The Logourlweixin Schema.", 
+            "type": "null"
+          }, 
+          "LstTags": {
+            "default": null, 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "None"
+            ], 
+            "id": "/properties/Data/items/properties/LstTags", 
+            "title": "The Lsttags Schema.", 
+            "type": "null"
+          }, 
+          "Name": {
+            "default": "\u9ec4\u5bb6\u6717\u6d4b\u8bd5\u64ad\u653e\u56680531-16", 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "\u9ec4\u5bb6\u6717\u6d4b\u8bd5\u64ad\u653e\u56680531-16"
+            ], 
+            "id": "/properties/Data/items/properties/Name", 
+            "title": "The Name Schema.", 
+            "type": "string"
+          }, 
+          "Nm": {
+            "default": null, 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "None"
+            ], 
+            "id": "/properties/Data/items/properties/Nm", 
+            "title": "The Nm Schema.", 
+            "type": "null"
+          }, 
+          "PartnerUserId": {
+            "default": 0, 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "0"
+            ], 
+            "id": "/properties/Data/items/properties/PartnerUserId", 
+            "title": "The Partneruserid Schema.", 
+            "type": "integer"
+          }, 
+          "Pids": {
+            "default": null, 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "None"
+            ], 
+            "id": "/properties/Data/items/properties/Pids", 
+            "title": "The Pids Schema.", 
+            "type": "null"
+          }, 
+          "PlayCount": {
+            "default": 183, 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "183"
+            ], 
+            "id": "/properties/Data/items/properties/PlayCount", 
+            "title": "The Playcount Schema.", 
+            "type": "integer"
+          }, 
+          "PraiseCount": {
+            "default": 11, 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "11"
+            ], 
+            "id": "/properties/Data/items/properties/PraiseCount", 
+            "title": "The Praisecount Schema.", 
+            "type": "integer"
+          }, 
+          "Price1": {
+            "default": null, 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "None"
+            ], 
+            "id": "/properties/Data/items/properties/Price1", 
+            "title": "The Price1 Schema.", 
+            "type": "null"
+          }, 
+          "Price2": {
+            "default": null, 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "None"
+            ], 
+            "id": "/properties/Data/items/properties/Price2", 
+            "title": "The Price2 Schema.", 
+            "type": "null"
+          }, 
+          "PriceMax": {
+            "default": null, 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "None"
+            ], 
+            "id": "/properties/Data/items/properties/PriceMax", 
+            "title": "The Pricemax Schema.", 
+            "type": "null"
+          }, 
+          "PriceMin": {
+            "default": null, 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "None"
+            ], 
+            "id": "/properties/Data/items/properties/PriceMin", 
+            "title": "The Pricemin Schema.", 
+            "type": "null"
+          }, 
+          "ProductNameMatchCount": {
+            "default": 0, 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "0"
+            ], 
+            "id": "/properties/Data/items/properties/ProductNameMatchCount", 
+            "title": "The Productnamematchcount Schema.", 
+            "type": "integer"
+          }, 
+          "RecommendedValue": {
+            "default": 0, 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "0"
+            ], 
+            "id": "/properties/Data/items/properties/RecommendedValue", 
+            "title": "The Recommendedvalue Schema.", 
+            "type": "number"
+          }, 
+          "SearchKeyWordMatchValue": {
+            "default": 0, 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "0"
+            ], 
+            "id": "/properties/Data/items/properties/SearchKeyWordMatchValue", 
+            "title": "The Searchkeywordmatchvalue Schema.", 
+            "type": "number"
+          }, 
+          "SelectedStoreIds": {
+            "default": null, 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "None"
+            ], 
+            "id": "/properties/Data/items/properties/SelectedStoreIds", 
+            "title": "The Selectedstoreids Schema.", 
+            "type": "null"
+          }, 
+          "ShareCount": {
+            "default": 0, 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "0"
+            ], 
+            "id": "/properties/Data/items/properties/ShareCount", 
+            "title": "The Sharecount Schema.", 
+            "type": "integer"
+          }, 
+          "ShopId": {
+            "default": 247, 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "247"
+            ], 
+            "id": "/properties/Data/items/properties/ShopId", 
+            "title": "The Shopid Schema.", 
+            "type": "integer"
+          }, 
+          "ShopLogo": {
+            "default": null, 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "None"
+            ], 
+            "id": "/properties/Data/items/properties/ShopLogo", 
+            "title": "The Shoplogo Schema.", 
+            "type": "null"
+          }, 
+          "ShopName": {
+            "default": "\u9ec4\u5bb6\u6717\u6d4b\u8bd5\u5e97\u94fa\u6d4b\u8bd5\u6d4b\u8bd5\u6d4b\u8bd5\u6d4b\u8bd5\u6d4b\u8bd5\u6d4b\u8bd5\u6d4b", 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "\u9ec4\u5bb6\u6717\u6d4b\u8bd5\u5e97\u94fa\u6d4b\u8bd5\u6d4b\u8bd5\u6d4b\u8bd5\u6d4b\u8bd5\u6d4b\u8bd5\u6d4b\u8bd5\u6d4b"
+            ], 
+            "id": "/properties/Data/items/properties/ShopName", 
+            "title": "The Shopname Schema.", 
+            "type": "string"
+          }, 
+          "ShopNm": {
+            "default": "\u9ec4\u5bb6\u6717\u6d4b\u8bd5\u5e97\u94fa\u6d4b\u8bd5\u6d4b\u8bd5\u6d4b\u8bd5\u6d4b\u8bd5\u6d4b\u8bd5\u6d4b\u8bd5\u6d4b", 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "\u9ec4\u5bb6\u6717\u6d4b\u8bd5\u5e97\u94fa\u6d4b\u8bd5\u6d4b\u8bd5\u6d4b\u8bd5\u6d4b\u8bd5\u6d4b\u8bd5\u6d4b\u8bd5\u6d4b"
+            ], 
+            "id": "/properties/Data/items/properties/ShopNm", 
+            "title": "The Shopnm Schema.", 
+            "type": "string"
+          }, 
+          "StoreDescriptionMatchCount": {
+            "default": 0, 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "0"
+            ], 
+            "id": "/properties/Data/items/properties/StoreDescriptionMatchCount", 
+            "title": "The Storedescriptionmatchcount Schema.", 
+            "type": "integer"
+          }, 
+          "StoreNameMatchCount": {
+            "default": 0, 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "0"
+            ], 
+            "id": "/properties/Data/items/properties/StoreNameMatchCount", 
+            "title": "The Storenamematchcount Schema.", 
+            "type": "integer"
+          }, 
+          "StrUpdateTime": {
+            "default": "2017-06-20 11:03:05", 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "2017-06-20 11:03:05"
+            ], 
+            "id": "/properties/Data/items/properties/StrUpdateTime", 
+            "title": "The Strupdatetime Schema.", 
+            "type": "string"
+          }, 
+          "TagDisplaySequence": {
+            "default": 0, 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "0"
+            ], 
+            "id": "/properties/Data/items/properties/TagDisplaySequence", 
+            "title": "The Tagdisplaysequence Schema.", 
+            "type": "integer"
+          }, 
+          "TagId": {
+            "default": 0, 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "0"
+            ], 
+            "id": "/properties/Data/items/properties/TagId", 
+            "title": "The Tagid Schema.", 
+            "type": "integer"
+          }, 
+          "TagName": {
+            "default": null, 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "None"
+            ], 
+            "id": "/properties/Data/items/properties/TagName", 
+            "title": "The Tagname Schema.", 
+            "type": "null"
+          }, 
+          "UpdateTime": {
+            "default": 0, 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "0"
+            ], 
+            "id": "/properties/Data/items/properties/UpdateTime", 
+            "title": "The Updatetime Schema.", 
+            "type": "number"
+          }, 
+          "UserId": {
+            "default": 0, 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "0"
+            ], 
+            "id": "/properties/Data/items/properties/UserId", 
+            "title": "The Userid Schema.", 
+            "type": "integer"
+          }, 
+          "VideoId": {
+            "default": 0, 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "0"
+            ], 
+            "id": "/properties/Data/items/properties/VideoId", 
+            "title": "The Videoid Schema.", 
+            "type": "integer"
+          }, 
+          "VideoName": {
+            "default": null, 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "None"
+            ], 
+            "id": "/properties/Data/items/properties/VideoName", 
+            "title": "The Videoname Schema.", 
+            "type": "null"
+          }, 
+          "VideoNameMatchCount": {
+            "default": 0, 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "0"
+            ], 
+            "id": "/properties/Data/items/properties/VideoNameMatchCount", 
+            "title": "The Videonamematchcount Schema.", 
+            "type": "integer"
+          }
+        }, 
+        "required": [
+          "ShopName", 
+          "Img", 
+          "TagDisplaySequence", 
+          "IsPraisedByCurUser", 
+          "DtUpdateTime", 
+          "ImgMax", 
+          "ShopId", 
+          "Hot", 
+          "PriceMax", 
+          "Nm", 
+          "ImgSmall2", 
+          "ImgSmall1", 
+          "StoreNameMatchCount", 
+          "LstTags", 
+          "StrUpdateTime", 
+          "CommentCount", 
+          "UpdateTime", 
+          "ImgMax414", 
+          "PlayCount", 
+          "UserId", 
+          "PriceMin", 
+          "ClickNum", 
+          "TagName", 
+          "ShopLogo", 
+          "PraiseCount", 
+          "Desc", 
+          "VideoName", 
+          "VideoNameMatchCount", 
+          "Name", 
+          "BePurchased", 
+          "IsFavoritedByCurUser", 
+          "SelectedStoreIds", 
+          "StoreDescriptionMatchCount", 
+          "ShareCount", 
+          "ShopNm", 
+          "ProductNameMatchCount", 
+          "Price1", 
+          "PartnerUserId", 
+          "RecommendedValue", 
+          "TagId", 
+          "SearchKeyWordMatchValue", 
+          "VideoId", 
+          "LogoUrlWeixin", 
+          "Price2", 
+          "Pids", 
+          "Img301", 
+          "Id", 
+          "FavoriteNum"
+        ], 
+        "type": "object"
+      }, 
+      "type": "array"
+    }, 
+    "Message": {
+      "default": "", 
+      "description": "An explanation about the purpose of this instance.", 
+      "examples": [
+        ""
+      ], 
+      "id": "/properties/Message", 
+      "title": "The Message Schema.", 
+      "type": "string"
+    }, 
+    "Success": {
+      "default": true, 
+      "description": "An explanation about the purpose of this instance.", 
+      "examples": [
+        "True"
+      ], 
+      "id": "/properties/Success", 
+      "title": "The Success Schema.", 
+      "type": "boolean"
+    }
+  }, 
+  "required": [
+    "Message", 
+    "Code", 
+    "Data", 
+    "Success"
+  ], 
+  "type": "object"
+}

@@ -1,0 +1,55 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "Data": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "name": {
+            "type": "string"
+          },
+          "parentId": {
+            "type": "integer"
+          },
+          "display": {
+            "type": "integer"
+          },
+          "displaySequence": {
+            "type": "integer"
+          },
+          "subList": {
+            "type": "null"
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "parentId",
+          "display",
+          "displaySequence",
+          "subList"
+        ]
+      }
+    },
+    "Message": {
+      "type": "string"
+    },
+    "Success": {
+      "type": "boolean"
+    },
+    "Code": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "Data",
+    "Message",
+    "Success",
+    "Code"
+  ]
+}

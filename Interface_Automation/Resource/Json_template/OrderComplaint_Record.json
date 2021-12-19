@@ -1,0 +1,135 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "PageNo": {
+      "type": "integer"
+    },
+    "PageSize": {
+      "type": "integer"
+    },
+    "Total": {
+      "type": "integer"
+    },
+    "Data": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "Id": {
+            "type": "integer"
+          },
+          "LatestData": {
+            "type": "integer"
+          },
+          "ComplaintDate": {
+            "type": "string"
+          },
+          "OrderItemId": {
+            "type": "integer"
+          },
+          "Type": {
+            "type": "integer"
+          },
+          "ComplaintReason": {
+            "type": "string"
+          },
+          "OrderId": {
+            "type": "integer"
+          },
+          "SellerReply": {
+            "type": "string"
+          },
+          "ShopId": {
+            "type": "integer"
+          },
+          "ShopName": {
+            "type": "string"
+          },
+          "ShopPhone": {
+            "type": "string"
+          },
+          "Status": {
+            "type": "integer"
+          },
+          "UserId": {
+            "type": "integer"
+          },
+          "UserName": {
+            "type": "string"
+          },
+          "UserPhone": {
+            "type": "string"
+          },
+          "ProductId": {
+            "type": "integer"
+          },
+          "ProductName": {
+            "type": "string"
+          },
+          "Quantity": {
+            "type": "integer"
+          },
+          "SalePrice": {
+            "type": "number"
+          },
+          "ImageUrl": {
+            "type": "string"
+          },
+          "Color": {
+            "type": "string"
+          },
+          "Size": {
+            "type": "string"
+          },
+          "Version": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "Id",
+          "LatestData",
+          "ComplaintDate",
+          "OrderItemId",
+          "Type",
+          "ComplaintReason",
+          "OrderId",
+          "SellerReply",
+          "ShopId",
+          "ShopName",
+          "ShopPhone",
+          "Status",
+          "UserId",
+          "UserName",
+          "UserPhone",
+          "ProductId",
+          "ProductName",
+          "Quantity",
+          "SalePrice",
+          "ImageUrl",
+          "Color",
+          "Size",
+          "Version"
+        ]
+      }
+    },
+    "Message": {
+      "type": "string"
+    },
+    "Success": {
+      "type": "boolean"
+    },
+    "Code": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "PageNo",
+    "PageSize",
+    "Total",
+    "Data",
+    "Message",
+    "Success",
+    "Code"
+  ]
+}

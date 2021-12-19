@@ -1,0 +1,25 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "id": "http://example.com/root.json",
+    "properties": {
+        "Code": {
+            "type": "integer"
+        },
+        "Message": {
+            "type": "null"
+        },
+        "Success": {
+            "type": "boolean"
+        },
+        "Value": {
+            "type": "boolean"
+        }
+    },
+    "required": [
+        "Message",
+        "Code",
+        "Success",
+        "Value"
+    ],
+    "type": "object"
+}

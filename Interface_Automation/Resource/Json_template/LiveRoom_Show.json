@@ -1,0 +1,195 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "definitions": {},
+    "id": "http://example.com/example.json",
+    "properties": {
+        "Code": {
+            "id": "/properties/Code",
+            "type": "integer"
+        },
+        "Message": {
+            "id": "/properties/Message",
+            "type": "null"
+        },
+        "Success": {
+            "id": "/properties/Success",
+            "type": "boolean"
+        },
+        "Value": {
+            "id": "/properties/Value",
+            "properties": {
+                "AlertStatus": {
+                    "id": "/properties/Value/properties/AlertStatus",
+                    "type": "integer"
+                },
+                "AlreadyPraised": {
+                    "id": "/properties/Value/properties/AlreadyPraised",
+                    "type": "boolean"
+                },
+                "CustomerService": {
+                    "id": "/properties/Value/properties/CustomerService",
+                    "type": "null"
+                },
+                "DanmuEnable": {
+                    "id": "/properties/Value/properties/DanmuEnable",
+                    "type": "integer"
+                },
+                "Introduction": {
+                    "id": "/properties/Value/properties/Introduction",
+                    "type": "string"
+                },
+                "IsConcernedShop": {
+                    "id": "/properties/Value/properties/IsConcernedShop",
+                    "type": "boolean"
+                },
+                "IsFree": {
+                    "id": "/properties/Value/properties/IsFree",
+                    "type": "boolean"
+                },
+                "IsRefreshTurnOn": {
+                    "id": "/properties/Value/properties/IsRefreshTurnOn",
+                    "type": "boolean"
+                },
+                "LiveAddress_H5_HD": {
+                    "id": "/properties/Value/properties/LiveAddress_H5_HD",
+                    "type": "string"
+                },
+                "LiveAddress_H5_SD": {
+                    "id": "/properties/Value/properties/LiveAddress_H5_SD",
+                    "type": "string"
+                },
+                "LiveAddress_HD": {
+                    "id": "/properties/Value/properties/LiveAddress_HD",
+                    "type": "string"
+                },
+                "LiveAddress_SD": {
+                    "id": "/properties/Value/properties/LiveAddress_SD",
+                    "type": "string"
+                },
+                "LiveEndTime": {
+                    "id": "/properties/Value/properties/LiveEndTime",
+                    "type": "string"
+                },
+                "LiveEndTimeTS": {
+                    "id": "/properties/Value/properties/LiveEndTimeTS",
+                    "type": "integer"
+                },
+                "LiveRoomId": {
+                    "id": "/properties/Value/properties/LiveRoomId",
+                    "type": "integer"
+                },
+                "LiveRoomLogo": {
+                    "id": "/properties/Value/properties/LiveRoomLogo",
+                    "type": "string"
+                },
+                "LiveRoomLogoFullPath": {
+                    "id": "/properties/Value/properties/LiveRoomLogoFullPath",
+                    "type": "string"
+                },
+                "LiveRoomName": {
+                    "id": "/properties/Value/properties/LiveRoomName",
+                    "type": "string"
+                },
+                "LiveRoomStatus": {
+                    "id": "/properties/Value/properties/LiveRoomStatus",
+                    "type": "integer"
+                },
+                "LiveRoomStatusString": {
+                    "id": "/properties/Value/properties/LiveRoomStatusString",
+                    "type": "string"
+                },
+                "LiveRoomStatusValue": {
+                    "id": "/properties/Value/properties/LiveRoomStatusValue",
+                    "type": "integer"
+                },
+                "LiveRoomTitle": {
+                    "id": "/properties/Value/properties/LiveRoomTitle",
+                    "type": "string"
+                },
+                "LiveStartTime": {
+                    "id": "/properties/Value/properties/LiveStartTime",
+                    "type": "string"
+                },
+                "LiveStartTimeEndTime": {
+                    "id": "/properties/Value/properties/LiveStartTimeEndTime",
+                    "type": "string"
+                },
+                "LiveStartTimeTS": {
+                    "id": "/properties/Value/properties/LiveStartTimeTS",
+                    "type": "integer"
+                },
+                "OnlineCount": {
+                    "id": "/properties/Value/properties/OnlineCount",
+                    "type": "integer"
+                },
+                "PayStatus": {
+                    "id": "/properties/Value/properties/PayStatus",
+                    "type": "integer"
+                },
+                "PraisedCount": {
+                    "id": "/properties/Value/properties/PraisedCount",
+                    "type": "integer"
+                },
+                "ProductList": {
+                    "id": "/properties/Value/properties/ProductList",
+                    "items": {},
+                    "type": "array"
+                },
+                "RefreshTurnCount": {
+                    "id": "/properties/Value/properties/RefreshTurnCount",
+                    "type": "integer"
+                },
+                "RefundStatus": {
+                    "id": "/properties/Value/properties/RefundStatus",
+                    "type": "integer"
+                },
+                "RotateInterval": {
+                    "id": "/properties/Value/properties/RotateInterval",
+                    "type": "string"
+                },
+                "ShopId": {
+                    "id": "/properties/Value/properties/ShopId",
+                    "type": "integer"
+                },
+                "SubscribeId": {
+                    "id": "/properties/Value/properties/SubscribeId",
+                    "type": "integer"
+                },
+                "SubscribeTime": {
+                    "id": "/properties/Value/properties/SubscribeTime",
+                    "type": "string"
+                },
+                "SubscribedStatus": {
+                    "id": "/properties/Value/properties/SubscribedStatus",
+                    "type": "boolean"
+                },
+                "TicketPrice": {
+                    "id": "/properties/Value/properties/TicketPrice",
+                    "type": "number"
+                },
+                "TrailerAddress": {
+                    "id": "/properties/Value/properties/TrailerAddress",
+                    "type": "string"
+                },
+                "TrailerImage": {
+                    "id": "/properties/Value/properties/TrailerImage",
+                    "type": "string"
+                },
+                "TrailerImageFullPath": {
+                    "id": "/properties/Value/properties/TrailerImageFullPath",
+                    "type": "string"
+                },
+                "TrailerImageFullPath_414": {
+                    "id": "/properties/Value/properties/TrailerImageFullPath_414",
+                    "type": "string"
+                },
+                "TrailerVideoId": {
+                    "id": "/properties/Value/properties/TrailerVideoId",
+                    "type": "integer"
+                }
+            },
+            "type": "object"
+        }
+    },
+    "type": "object"
+}

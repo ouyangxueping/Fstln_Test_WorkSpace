@@ -1,0 +1,175 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "Value": {
+      "type": "object",
+      "properties": {
+        "shopCartItemModels": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "CartItemModels": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "color": {
+                      "type": "string"
+                    },
+                    "count": {
+                      "type": "integer"
+                    },
+                    "id": {
+                      "type": "integer"
+                    },
+                    "imgUrl": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "price": {
+                      "type": "number"
+                    },
+                    "productCode": {
+                      "type": "null"
+                    },
+                    "shopId": {
+                      "type": "integer"
+                    },
+                    "shopName": {
+                      "type": "null"
+                    },
+                    "size": {
+                      "type": "string"
+                    },
+                    "skuId": {
+                      "type": "string"
+                    },
+                    "version": {
+                      "type": "string"
+                    },
+                    "storeId": {
+                      "type": "integer"
+                    },
+                    "stock": {
+                      "type": "integer"
+                    },
+                    "cartItemId": {
+                      "type": "integer"
+                    },
+                    "quantity": {
+                      "type": "integer"
+                    },
+                    "IsApplyMemberDiscount": {
+                      "type": "boolean"
+                    },
+                    "PromotionType": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "color",
+                    "count",
+                    "id",
+                    "imgUrl",
+                    "name",
+                    "price",
+                    "productCode",
+                    "shopId",
+                    "shopName",
+                    "size",
+                    "skuId",
+                    "version",
+                    "storeId",
+                    "stock",
+                    "cartItemId",
+                    "quantity",
+                    "IsApplyMemberDiscount",
+                    "PromotionType"
+                  ]
+                }
+              },
+              "Freight": {
+                "type": "number"
+              },
+              "isFreeFreight": {
+                "type": "boolean"
+              },
+              "shopFreeFreight": {
+                "type": "number"
+              },
+              "shopId": {
+                "type": "integer"
+              },
+              "ShopName": {
+                "type": "string"
+              },
+              "shopTotalAmount": {
+                "type": "number"
+              },
+              "ReductionAmount": {
+                "type": "number"
+              },
+              "OrderCredit": {
+                "type": "number"
+              },
+              "PromotionDis": {
+                "type": "boolean"
+              },
+              "UserCoupons": {
+                "type": "array",
+                "items": {}
+              },
+              "vshopId": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "CartItemModels",
+              "Freight",
+              "isFreeFreight",
+              "shopFreeFreight",
+              "shopId",
+              "ShopName",
+              "shopTotalAmount",
+              "ReductionAmount",
+              "OrderCredit",
+              "PromotionDis",
+              "UserCoupons",
+              "vshopId"
+            ]
+          }
+        },
+        "orderAmount": {
+          "type": "number"
+        },
+        "Freight": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "shopCartItemModels",
+        "orderAmount",
+        "Freight"
+      ]
+    },
+    "Message": {
+      "type": "null"
+    },
+    "Success": {
+      "type": "boolean"
+    },
+    "Code": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "Value",
+    "Message",
+    "Success",
+    "Code"
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "Data": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "Id": {
+            "type": "integer"
+          },
+          "VideoId": {
+            "type": "integer"
+          },
+          "VideoName": {
+            "type": "string"
+          },
+          "StoreId": {
+            "type": "integer"
+          },
+          "StoreName": {
+            "type": "string"
+          },
+          "ShopId": {
+            "type": "integer"
+          },
+          "ShopName": {
+            "type": "string"
+          },
+          "ReviewId": {
+            "type": "integer"
+          },
+          "ReviewUserId": {
+            "type": "integer"
+          },
+          "ReviewUserName": {
+            "type": "string"
+          },
+          "AtUserId": {
+            "type": "integer"
+          },
+          "ReviewContent": {
+            "type": "string"
+          },
+          "ReviewDate": {
+            "type": "string"
+          },
+          "ReviewDateDisplay": {
+            "type": "string"
+          },
+          "ReplyDate": {
+            "type": "string"
+          },
+          "ReplyDateDisplay": {
+            "type": "string"
+          },
+          "ReplyCount": {
+            "type": "integer"
+          },
+          "PraisedCount": {
+            "type": "integer"
+          },
+          "Photo": {
+            "type": "string"
+          },
+          "PhotoUrl": {
+            "type": "string"
+          },
+          "ImageUrl": {
+            "type": "string"
+          },
+          "IsHidden": {
+            "type": "integer"
+          },
+          "HasRead": {
+            "type": "boolean"
+          },
+          "Children": {
+            "type": "array",
+            "items": {}
+          },
+          "HasReplied": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "Id",
+          "VideoId",
+          "VideoName",
+          "StoreId",
+          "StoreName",
+          "ShopId",
+          "ShopName",
+          "ReviewId",
+          "ReviewUserId",
+          "ReviewUserName",
+          "AtUserId",
+          "AtUserName",
+          "ReviewContent",
+          "ReviewDate",
+          "ReviewDateDisplay",
+          "ReplyDate",
+          "ReplyDateDisplay",
+          "ReplyCount",
+          "PraisedCount",
+          "ImageQuantityString",
+          "ImagePath",
+          "Photo",
+          "PhotoForApi",
+          "PhotoUrl",
+          "ImageUrl",
+          "IsHidden",
+          "ReplyContent",
+          "HasRead",
+          "Children",
+          "HasReplied"
+        ]
+      }
+    },
+    "Message": {
+      "type": "string"
+    },
+    "Success": {
+      "type": "boolean"
+    },
+    "Code": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "Data",
+    "Message",
+    "Success",
+    "Code"
+  ]
+}

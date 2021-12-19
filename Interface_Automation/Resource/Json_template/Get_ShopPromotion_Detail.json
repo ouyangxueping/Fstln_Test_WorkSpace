@@ -1,0 +1,172 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "Value": {
+      "type": "object",
+      "properties": {
+        "Id": {
+          "type": "integer"
+        },
+        "ShopId": {
+          "type": "integer"
+        },
+        "ShopName": {
+          "type": "string"
+        },
+        "PromotionType": {
+          "type": "integer"
+        },
+        "PromotionName": {
+          "type": "string"
+        },
+        "PromotionStatus": {
+          "type": "integer"
+        },
+        "PromotionStatusDisplay": {
+          "type": "string"
+        },
+        "PromotionRemark": {
+          "type": "string"
+        },
+        "PromotionScale": {
+          "type": "integer"
+        },
+        "PromotionScaleDisplay": {
+          "type": "null"
+        },
+        "OrderCredit": {
+          "type": "integer"
+        },
+        "ReductionAmount": {
+          "type": "integer"
+        },
+        "MaxSkuPerUser": {
+          "type": "integer"
+        },
+        "StartTime": {
+          "type": "string"
+        },
+        "StartTimeDisplay": {
+          "type": "string"
+        },
+        "EndTime": {
+          "type": "string"
+        },
+        "EndTimeDisplay": {
+          "type": "string"
+        },
+        "UserId": {
+          "type": "integer"
+        },
+        "UserName": {
+          "type": "string"
+        },
+        "CreateTime": {
+          "type": "string"
+        },
+        "LastUpdateTime": {
+          "type": "string"
+        },
+        "ShopPromotionProductList": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "Id": {
+                "type": "integer"
+              },
+              "PromotionId": {
+                "type": "integer"
+              },
+              "PromotionType": {
+                "type": "integer"
+              },
+              "ProductId": {
+                "type": "integer"
+              },
+              "ProductName": {
+                "type": "string"
+              },
+              "PromotionDiscount": {
+                "type": "number"
+              },
+              "PromotionInventory": {
+                "type": "integer"
+              },
+              "StartTime": {
+                "type": "string"
+              },
+              "EndTime": {
+                "type": "string"
+              },
+              "Price": {
+                "type": "number"
+              },
+              "Stock": {
+                "type": "integer"
+              },
+              "ProductImage": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "Id",
+              "PromotionId",
+              "PromotionType",
+              "ProductId",
+              "ProductName",
+              "PromotionDiscount",
+              "PromotionInventory",
+              "StartTime",
+              "EndTime",
+              "Price",
+              "Stock",
+              "ProductImage"
+            ]
+          }
+        }
+      },
+      "required": [
+        "Id",
+        "ShopId",
+        "ShopName",
+        "PromotionType",
+        "PromotionTypeDisplay",
+        "PromotionName",
+        "PromotionStatus",
+        "PromotionStatusDisplay",
+        "PromotionRemark",
+        "PromotionScale",
+        "PromotionScaleDisplay",
+        "OrderCredit",
+        "ReductionAmount",
+        "MaxSkuPerUser",
+        "StartTime",
+        "StartTimeDisplay",
+        "EndTime",
+        "EndTimeDisplay",
+        "UserId",
+        "UserName",
+        "CreateTime",
+        "LastUpdateTime",
+        "ShopPromotionProductList"
+      ]
+    },
+    "Message": {
+      "type": "null"
+    },
+    "Success": {
+      "type": "boolean"
+    },
+    "Code": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "Value",
+    "Message",
+    "Success",
+    "Code"
+  ]
+}

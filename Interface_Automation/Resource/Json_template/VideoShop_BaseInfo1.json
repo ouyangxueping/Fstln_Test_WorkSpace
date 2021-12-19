@@ -1,0 +1,69 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "definitions": {},
+    "id": "http://example.com/example.json",
+    "properties": {
+        "Code": {
+            "id": "/properties/Code",
+            "type": "integer"
+        },
+        "Message": {
+            "id": "/properties/Message",
+            "type": "null"
+        },
+        "Success": {
+            "id": "/properties/Success",
+            "type": "boolean"
+        },
+        "Value": {
+            "id": "/properties/Value",
+            "properties": {
+                "Concernedshop": {
+                    "id": "/properties/Value/properties/Concernedshop",
+                    "type": "boolean"
+                },
+                "FollowersNum": {
+                    "id": "/properties/Value/properties/FollowersNum",
+                    "type": "integer"
+                },
+                "ProductTotal": {
+                    "id": "/properties/Value/properties/ProductTotal",
+                    "type": "integer"
+                },
+                "PromotionProductCount": {
+                    "id": "/properties/Value/properties/PromotionProductCount",
+                    "type": "integer"
+                },
+                "ShopLogo": {
+                    "id": "/properties/Value/properties/ShopLogo",
+                    "type": "string"
+                },
+                "ShopName": {
+                    "id": "/properties/Value/properties/ShopName",
+                    "type": "string"
+                },
+                "ViedoTotal": {
+                    "id": "/properties/Value/properties/ViedoTotal",
+                    "type": "integer"
+                }
+            },
+            "required": [
+                "ProductTotal",
+                "ShopName",
+                "PromotionProductCount",
+                "Concernedshop",
+                "ShopLogo",
+                "FollowersNum",
+                "ViedoTotal"
+            ],
+            "type": "object"
+        }
+    },
+    "required": [
+        "Message",
+        "Code",
+        "Success",
+        "Value"
+    ],
+    "type": "object"
+}

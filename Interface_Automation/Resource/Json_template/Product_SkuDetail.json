@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "Value": {
+      "type": "object",
+      "properties": {
+        "Stock": {
+          "type": "integer"
+        },
+        "Price": {
+          "type": "number"
+        },
+        "Status": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "Stock",
+        "Price",
+        "Status"
+      ]
+    },
+    "Message": {
+      "type": "null"
+    },
+    "Success": {
+      "type": "boolean"
+    },
+    "Code": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "Value",
+    "Message",
+    "Success",
+    "Code"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "Value": {
+      "type": "object",
+      "properties": {
+        "ExchangeNum": {
+          "type": "integer"
+        },
+        "ExchangeGrade": {
+          "type": "integer"
+        },
+        "UserGrade": {
+          "type": "integer"
+        },
+        "UserIntegral": {
+          "type": "integer"
+        },
+        "ProductId": {
+          "type": "integer"
+        },
+        "ProductName": {
+          "type": "string"
+        },
+        "SalePrice": {
+          "type": "number"
+        },
+        "Quantity": {
+          "type": "integer"
+        },
+        "IntegralPerMoney": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "ExchangeNum",
+        "ExchangeGrade",
+        "UserGrade",
+        "UserIntegral",
+        "ProductId",
+        "ProductName",
+        "SalePrice",
+        "Quantity",
+        "IntegralPerMoney"
+      ]
+    },
+    "Message": {
+      "type": "string"
+    },
+    "Success": {
+      "type": "boolean"
+    },
+    "Code": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "Value",
+    "Message",
+    "Success",
+    "Code"
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "Data": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "VipLevel": {
+            "type": "string"
+          },
+          "Discount": {
+            "type": "number"
+          },
+          "PromotionDiscount": {
+            "type": "number"
+          },
+          "ProductId": {
+            "type": "integer"
+          },
+          "OrderCredit": {
+            "type": "number"
+          },
+          "ReductionAmount": {
+            "type": "number"
+          },
+          "MaxSkuPerUser": {
+            "type": "integer"
+          },
+          "PromotionType": {
+            "type": "integer"
+          },
+          "StartTime": {
+            "type": "integer"
+          },
+          "EndTime": {
+            "type": "integer"
+          },
+          "IsApplyMemberDiscount": {
+            "type": "boolean"
+          },
+          "PromotionInventory": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "VipLevel",
+          "Discount",
+          "PromotionDiscount",
+          "ProductId",
+          "OrderCredit",
+          "ReductionAmount",
+          "MaxSkuPerUser",
+          "PromotionType",
+          "StartTime",
+          "EndTime",
+          "IsApplyMemberDiscount",
+          "PromotionInventory"
+        ]
+      }
+    },
+    "Message": {
+      "type": "null"
+    },
+    "Success": {
+      "type": "boolean"
+    },
+    "Code": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "Data",
+    "Message",
+    "Success",
+    "Code"
+  ]
+}

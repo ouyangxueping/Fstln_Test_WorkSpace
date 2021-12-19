@@ -1,0 +1,132 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "Data": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "ProductId": {
+            "type": "integer"
+          },
+          "ProductName": {
+            "type": "string"
+          },
+          "ThumbnailsUrl": {
+            "type": "string"
+          },
+          "ImageFullPath": {
+            "type": "string"
+          },
+          "OrderStatus": {
+            "type": "integer"
+          },
+          "OrderStatusDescription": {
+            "type": "string"
+          },
+          "OrderPlatform": {
+            "type": "integer"
+          },
+          "RefundId": {
+            "type": "integer"
+          },
+          "OrderId": {
+            "type": "integer"
+          },
+          "OrderItemId": {
+            "type": "integer"
+          },
+          "ShopId": {
+            "type": "integer"
+          },
+          "ShopName": {
+            "type": "string"
+          },
+          "UserId": {
+            "type": "integer"
+          },
+          "UserName": {
+            "type": "string"
+          },
+          "ApplyDate": {
+            "type": "string"
+          },
+          "ApplyDateStr": {
+            "type": "string"
+          },
+          "OrderDate": {
+            "type": "string"
+          },
+          "OrderDateStr": {
+            "type": "string"
+          },
+          "DistributionTotalPrice": {
+            "type": "number"
+          },
+          "Amount": {
+            "type": "number"
+          },
+          "SalePrice": {
+            "type": "number"
+          },
+          "Quantity": {
+            "type": "integer"
+          },
+          "SellerAuditStatus": {
+            "type": "integer"
+          },
+          "ManagerConfirmStatus": {
+            "type": "integer"
+          },
+          "Id": {
+            "type": "null"
+          }
+        },
+        "required": [
+          "ProductId",
+          "ProductName",
+          "ThumbnailsUrl",
+          "ImageFullPath",
+          "OrderStatus",
+          "OrderStatusDescription",
+          "OrderPlatform",
+          "RefundId",
+          "OrderId",
+          "OrderItemId",
+          "ShopId",
+          "ShopName",
+          "UserId",
+          "UserName",
+          "ApplyDate",
+          "ApplyDateStr",
+          "OrderDate",
+          "OrderDateStr",
+          "DistributionTotalPrice",
+          "Amount",
+          "SalePrice",
+          "Quantity",
+          "SellerAuditStatus",
+          "ManagerConfirmStatus",
+          "RefundStatusDescription",
+          "Id"
+        ]
+      }
+    },
+    "Message": {
+      "type": "string"
+    },
+    "Success": {
+      "type": "boolean"
+    },
+    "Code": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "Data",
+    "Message",
+    "Success",
+    "Code"
+  ]
+}

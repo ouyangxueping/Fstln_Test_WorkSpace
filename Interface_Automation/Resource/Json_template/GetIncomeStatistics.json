@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "Data": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "AccountDate": {
+            "type": "string"
+          },
+          "EndDate": {
+            "type": "string"
+          },
+          "Id": {
+            "type": "integer"
+          },
+          "DistributorAmount": {
+            "type": "integer"
+          },
+          "FreezeAmount": {
+            "type": "integer"
+          },
+          "AvailableAmount": {
+            "type": "integer"
+          },
+          "PeriodSettlement": {
+            "type": "integer"
+          },
+          "Remark": {
+            "type": "null"
+          },
+          "MemberId": {
+            "type": "integer"
+          },
+          "MemberName": {
+            "type": "string"
+          },
+          "StartDate": {
+            "type": "string"
+          },
+          "Status": {
+            "type": "integer"
+          },
+          "TimeSlot": {
+            "type": "string"
+          },
+          "CycleStartDate": {
+            "type": "string"
+          },
+          "CycleEndDate": {
+            "type": "string"
+          },
+          "Website": {
+            "type": "integer"
+          },
+          "WebsiteName": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "AccountDate",
+          "EndDate",
+          "Id",
+          "DistributorAmount",
+          "FreezeAmount",
+          "AvailableAmount",
+          "PeriodSettlement",
+          "Remark",
+          "MemberId",
+          "MemberName",
+          "StartDate",
+          "Status",
+          "TimeSlot",
+          "CycleStartDate",
+          "CycleEndDate",
+          "Website",
+          "WebsiteName"
+        ]
+      }
+    },
+    "Message": {
+      "type": "string"
+    },
+    "Success": {
+      "type": "boolean"
+    },
+    "Code": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "Data",
+    "Message",
+    "Success",
+    "Code"
+  ]
+}

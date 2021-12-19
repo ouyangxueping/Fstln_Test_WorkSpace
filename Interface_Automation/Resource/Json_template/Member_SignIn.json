@@ -1,0 +1,65 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "Value": {
+      "type": "object",
+      "properties": {
+        "MemberId": {
+          "type": "integer"
+        },
+        "Success": {
+          "type": "boolean"
+        },
+        "Exp": {
+          "type": "integer"
+        },
+        "Grade": {
+          "type": "integer"
+        },
+        "Integral": {
+          "type": "integer"
+        },
+        "GradeName": {
+          "type": "string"
+        },
+        "GainedExp": {
+          "type": "integer"
+        },
+        "SignInResult": {
+          "type": "integer"
+        },
+        "SignInMessage": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "MemberId",
+        "UserName",
+        "Success",
+        "Exp",
+        "Grade",
+        "Integral",
+        "GradeName",
+        "GainedExp",
+        "SignInResult",
+        "SignInMessage"
+      ]
+    },
+    "Message": {
+      "type": "string"
+    },
+    "Success": {
+      "type": "boolean"
+    },
+    "Code": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "Value",
+    "Message",
+    "Success",
+    "Code"
+  ]
+}

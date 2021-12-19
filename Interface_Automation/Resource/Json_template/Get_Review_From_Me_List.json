@@ -1,0 +1,148 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "Data": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "Id": {
+            "type": "integer"
+          },
+          "VideoId": {
+            "type": "integer"
+          },
+          "VideoName": {
+            "type": "string"
+          },
+          "StoreId": {
+            "type": "integer"
+          },
+          "StoreName": {
+            "type": "string"
+          },
+          "ShopId": {
+            "type": "integer"
+          },
+          "ShopName": {
+            "type": "string"
+          },
+          "ReviewId": {
+            "type": "integer"
+          },
+          "ReviewUserId": {
+            "type": "integer"
+          },
+          "ReviewContent": {
+            "type": "string"
+          },
+          "ReviewDate": {
+            "type": "string"
+          },
+          "ReplyDateDisplay": {
+            "type": "string"
+          },
+          "HasRead": {
+            "type": "boolean"
+          },
+          "ReplyCount": {
+            "type": "integer"
+          },
+          "AtRId": {
+            "type": "integer"
+          },
+          "HasReplied": {
+            "type": "boolean"
+          },
+          "ReviewDateDisplay": {
+            "type": "string"
+          },
+          "PraisedCount": {
+            "type": "integer"
+          },
+          "IsPraisedDelete": {
+            "type": "integer"
+          },
+          "IsHidden": {
+            "type": "integer"
+          },
+          "SourceType": {
+            "type": "integer"
+          },
+          "SourceId": {
+            "type": "integer"
+          },
+          "SourceName": {
+            "type": "string"
+          },
+          "ReviewImageUrlList": {
+            "type": "array",
+            "items": {}
+          },
+          "ReviewImageLUrlList": {
+            "type": "array",
+            "items": {}
+          }
+        },
+        "required": [
+          "Id",
+          "VideoId",
+          "VideoName",
+          "ImgMax414",
+          "LogoUrlWeixin",
+          "StoreId",
+          "StoreName",
+          "ShopId",
+          "ShopName",
+          "ReviewId",
+          "ReviewUserId",
+          "ReviewUserName",
+          "AtUserId",
+          "AtUserName",
+          "ReviewContent",
+          "ReviewDate",
+          "ReplyDate",
+          "ReplyDateDisplay",
+          "ReplyContent",
+          "HasRead",
+          "ReplyCount",
+          "AtRId",
+          "HasReplied",
+          "ReviewDateDisplay",
+          "PhotoUrl",
+          "DisplayLogo",
+          "Photo",
+          "PhotoForApi",
+          "ParentReview",
+          "PraisedCount",
+          "IsPraisedDelete",
+          "IsHidden",
+          "SourceType",
+          "SourceId",
+          "SourceName",
+          "SourceImageUrl",
+          "ImagePath",
+          "ImageQuantityString",
+          "ReviewImageUrlList",
+          "ReviewImageLUrlList"
+        ]
+      }
+    },
+    "Message": {
+      "type": "null"
+    },
+    "Success": {
+      "type": "boolean"
+    },
+    "Code": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "Data",
+    "Message",
+    "Success",
+    "Code"
+  ]
+}

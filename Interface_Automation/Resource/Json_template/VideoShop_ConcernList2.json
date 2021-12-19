@@ -1,0 +1,107 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "PageNo": {
+      "type": "integer"
+    },
+    "PageSize": {
+      "type": "integer"
+    },
+    "Total": {
+      "type": "integer"
+    },
+    "Data": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "ShopLogo": {
+            "type": "string"
+          },
+          "ManagerId": {
+            "type": "integer"
+          },
+          "ManagerName": {
+            "type": "string"
+          },
+          "ShopId": {
+            "type": "integer"
+          },
+          "ShopName": {
+            "type": "string"
+          },
+          "StoreId": {
+            "type": "integer"
+          },
+          "StoreName": {
+            "type": "string"
+          },
+          "StoreDesc": {
+            "type": "string"
+          },
+          "VideoId": {
+            "type": "integer"
+          },
+          "DtUpdateTime": {
+            "type": "string"
+          },
+          "UpdateTimeStr": {
+            "type": "string"
+          },
+          "PlayCount": {
+            "type": "string"
+          },
+          "ImgMax": {
+            "type": "string"
+          },
+          "FavoriteNum": {
+            "type": "integer"
+          },
+          "CommentCount": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "ShopLogo",
+          "ManagerId",
+          "ManagerName",
+          "ShopId",
+          "ShopName",
+          "StoreId",
+          "StoreName",
+          "StoreDesc",
+          "VideoId",
+          "VideoName",
+          "DtUpdateTime",
+          "UpdateTimeStr",
+          "PlayCount",
+          "ImgMax414",
+          "ImgMax",
+          "ImgMin301",
+          "LogoUrlWeixin",
+          "FavoriteNum",
+          "CommentCount"
+        ]
+      }
+    },
+    "Message": {
+      "type": "string"
+    },
+    "Success": {
+      "type": "boolean"
+    },
+    "Code": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "PageNo",
+    "PageSize",
+    "Total",
+    "Data",
+    "Message",
+    "Success",
+    "Code"
+  ]
+}

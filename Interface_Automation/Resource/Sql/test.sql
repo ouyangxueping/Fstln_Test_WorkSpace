@@ -1,0 +1,1 @@
+select VoteTotal from azt_vote where StoreId="526" and VideoId="443"

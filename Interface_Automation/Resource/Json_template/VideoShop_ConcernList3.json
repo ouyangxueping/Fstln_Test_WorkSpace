@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "Data": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "Date": {
+            "type": "string"
+          },
+          "Description": {
+            "type": "string"
+          },
+          "Id": {
+            "type": "integer"
+          },
+          "IPAddress": {
+            "type": "string"
+          },
+          "PageUrl": {
+            "type": "string"
+          },
+          "ShopId": {
+            "type": "integer"
+          },
+          "SellerManagerId": {
+            "type": "integer"
+          },
+          "UserName": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "Date",
+          "Description",
+          "Id",
+          "IPAddress",
+          "PageUrl",
+          "ShopId",
+          "SellerManagerId",
+          "UserName"
+        ]
+      }
+    },
+    "Message": {
+      "type": "null"
+    },
+    "Success": {
+      "type": "boolean"
+    },
+    "Code": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "Data",
+    "Message",
+    "Success",
+    "Code"
+  ]
+}

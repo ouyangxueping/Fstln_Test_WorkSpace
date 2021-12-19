@@ -1,0 +1,219 @@
+{
+  "definitions": {}, 
+  "$schema": "http://json-schema.org/draft-06/schema#", 
+  "type": "object", 
+  "$id": "http://example.com/example.json", 
+  "required": [
+    "Value", 
+    "Message", 
+    "Success", 
+    "Code"
+  ], 
+  "properties": {
+    "Value": {
+      "type": "object", 
+      "$id": "/properties/Value", 
+      "required": [
+        "CategoryInfoModel", 
+        "CarouselImageInfoList", 
+        "VideoInfoList"
+      ], 
+      "properties": {
+        "CategoryInfoModel": {
+          "type": "object", 
+          "$id": "/properties/Value/properties/CategoryInfoModel", 
+          "required": [
+            "CommisRate", 
+            "Depth", 
+            "DisplaySequence", 
+            "HasChildren", 
+            "Icon", 
+            "Id", 
+            "Meta_Description", 
+            "Meta_Keywords", 
+            "Meta_Title", 
+            "Name", 
+            "ParentCategoryId", 
+            "Path", 
+            "RewriteName", 
+            "TypeId"
+          ], 
+          "properties": {
+            "CommisRate": {
+              "type": "number", 
+              "$id": "/properties/Value/properties/CategoryInfoModel/properties/CommisRate"
+            }, 
+            "Depth": {
+              "type": "integer", 
+              "$id": "/properties/Value/properties/CategoryInfoModel/properties/Depth"
+            }, 
+            "DisplaySequence": {
+              "type": "integer", 
+              "$id": "/properties/Value/properties/CategoryInfoModel/properties/DisplaySequence"
+            }, 
+            "HasChildren": {
+              "type": "boolean", 
+              "$id": "/properties/Value/properties/CategoryInfoModel/properties/HasChildren"
+            }, 
+            "Icon": {
+              "type": "string", 
+              "$id": "/properties/Value/properties/CategoryInfoModel/properties/Icon"
+            }, 
+            "Id": {
+              "type": "integer", 
+              "$id": "/properties/Value/properties/CategoryInfoModel/properties/Id"
+            },  
+            "Name": {
+              "type": "string", 
+              "$id": "/properties/Value/properties/CategoryInfoModel/properties/Name"
+            }, 
+            "ParentCategoryId": {
+              "type": "integer", 
+              "$id": "/properties/Value/properties/CategoryInfoModel/properties/ParentCategoryId"
+            }, 
+            "Path": {
+              "type": "string", 
+              "$id": "/properties/Value/properties/CategoryInfoModel/properties/Path"
+            }, 
+            "TypeId": {
+              "type": "integer", 
+              "$id": "/properties/Value/properties/CategoryInfoModel/properties/TypeId"
+            }
+          }
+        }, 
+        "CarouselImageInfoList": {
+          "type": "array", 
+          "$id": "/properties/Value/properties/CarouselImageInfoList", 
+          "items": {
+            "$id": "grizzlybear", 
+            "title": "Empty Object", 
+            "description": "This accepts anything, as long as it's valid JSON."
+          }
+        }, 
+        "VideoInfoList": {
+          "type": "array", 
+          "$id": "/properties/Value/properties/VideoInfoList", 
+          "items": {
+            "type": "object", 
+            "$id": "/properties/Value/properties/VideoInfoList/items", 
+            "required": [
+              "Id", 
+              "Img", 
+              "Img301", 
+              "ImgMax414", 
+              "Name", 
+              "ImgMax", 
+              "Desc", 
+              "Pids", 
+              "ImgSmall1", 
+              "ImgSmall2", 
+              "Price1", 
+              "Price2", 
+              "LogoUrlWeixin", 
+              "PriceMin", 
+              "PriceMax", 
+              "ClickNum", 
+              "ShopNm", 
+              "ShopId", 
+              "ShopLogo", 
+              "PlayCount", 
+              "FavoriteNum", 
+              "Nm", 
+              "UserId", 
+              "PartnerUserId", 
+              "Hot", 
+              "ShareCount", 
+              "CommentCount", 
+              "PraiseCount", 
+              "UpdateTime", 
+              "DtUpdateTime", 
+              "StrUpdateTime"
+            ], 
+            "properties": {
+              "Id": {
+                "type": "integer", 
+                "$id": "/properties/Value/properties/VideoInfoList/items/properties/Id"
+              }, 
+              "Img": {
+                "type": "string", 
+                "$id": "/properties/Value/properties/VideoInfoList/items/properties/Img"
+              }, 
+              "Name": {
+                "type": "string", 
+                "$id": "/properties/Value/properties/VideoInfoList/items/properties/Name"
+              }, 
+              "ImgMax": {
+                "type": "string", 
+                "$id": "/properties/Value/properties/VideoInfoList/items/properties/ImgMax"
+              },  
+              "ClickNum": {
+                "type": "string", 
+                "$id": "/properties/Value/properties/VideoInfoList/items/properties/ClickNum"
+              }, 
+              "ShopNm": {
+                "type": "string", 
+                "$id": "/properties/Value/properties/VideoInfoList/items/properties/ShopNm"
+              }, 
+              "ShopId": {
+                "type": "integer", 
+                "$id": "/properties/Value/properties/VideoInfoList/items/properties/ShopId"
+              }, 
+              "PlayCount": {
+                "type": "integer", 
+                "$id": "/properties/Value/properties/VideoInfoList/items/properties/PlayCount"
+              }, 
+              "FavoriteNum": {
+                "type": "integer", 
+                "$id": "/properties/Value/properties/VideoInfoList/items/properties/FavoriteNum"
+              }, 
+              "UserId": {
+                "type": "integer", 
+                "$id": "/properties/Value/properties/VideoInfoList/items/properties/UserId"
+              }, 
+              "PartnerUserId": {
+                "type": "integer", 
+                "$id": "/properties/Value/properties/VideoInfoList/items/properties/PartnerUserId"
+              }, 
+              "ShareCount": {
+                "type": "integer", 
+                "$id": "/properties/Value/properties/VideoInfoList/items/properties/ShareCount"
+              }, 
+              "CommentCount": {
+                "type": "integer", 
+                "$id": "/properties/Value/properties/VideoInfoList/items/properties/CommentCount"
+              }, 
+              "PraiseCount": {
+                "type": "integer", 
+                "$id": "/properties/Value/properties/VideoInfoList/items/properties/PraiseCount"
+              }, 
+              "UpdateTime": {
+                "type": "number", 
+                "$id": "/properties/Value/properties/VideoInfoList/items/properties/UpdateTime"
+              }, 
+              "DtUpdateTime": {
+                "type": "string", 
+                "$id": "/properties/Value/properties/VideoInfoList/items/properties/DtUpdateTime"
+              }, 
+              "StrUpdateTime": {
+                "type": "string", 
+                "$id": "/properties/Value/properties/VideoInfoList/items/properties/StrUpdateTime"
+              }
+            }
+          }
+        }
+      }
+    }, 
+    "Message": {
+      "type": "null", 
+      "$id": "/properties/Message"
+    }, 
+    "Success": {
+      "type": "boolean", 
+      "$id": "/properties/Success"
+    }, 
+    "Code": {
+      "type": "integer", 
+      "$id": "/properties/Code"
+    }
+  }
+}
