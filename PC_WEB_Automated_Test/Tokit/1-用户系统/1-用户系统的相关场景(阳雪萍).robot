@@ -8,15 +8,17 @@ Library           DatabaseLibrary
 
 *** Variables ***
 ${UserLogin_Name}    daisy@fstln.io    #用户登录邮箱
-${UserLogin_Password}    Daisy123456
-${Register_Account_Suffixt}    Test@fstln.io
+${UserLogin_Password}    Daisy123456    #用户登录密码
+${Register_Account_Suffixt}    Test@fstln.io    #新注册账号
+${Site_URL}       https://chunmi.myshopify.com/    #测试环境的访问地址
+${Test_Environment_Password}    chunmi_    #访问测试环境的密码
 
 *** Test Cases ***
 Case_用户进行注册
     [Setup]    Run Keywords    Import Library    OperatingSystem
     ...    AND    OperatingSystem.run    taskkill /F /IM WerFault.exe
     #    Open Browser    ${Tokit_Recipes_NA_URL}    #打开浏览器
-    进入测试环境    ${Tokit_TestDev_URL}
+    进入测试环境    ${Site_URL}    chunmi_    #打开浏览器
     点击个人中心的Icon
     Wait Until Element Is Visible    xpath=//section[@class="container py-8"]/div/div[3]/a[1]    15
     ${Create_Account1}=    Set Variable    Create Account
