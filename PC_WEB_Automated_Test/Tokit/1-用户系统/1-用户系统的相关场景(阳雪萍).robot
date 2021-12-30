@@ -77,11 +77,10 @@ Case_调试数据
 
 1-Case_数据库初始化
     #先处理下数据库
-    DatabaseLibrary.Connect To Database Using Custom Params    pymysql    db='aws-test',user='root',password='ng6brE9LqSrt0M4H8HUD',host='18.167.6.45',port=3306
+    DatabaseLibrary.Connect To Database Using Custom Params    pymysql    db='nothing-ota',user='root',password='ng6brE9LqSrt0M4H8HUD',host='18.167.6.45',port=3306
     ${query}=    DatabaseLibrary.Query    SELECT * FROM users
     log    ${query}
     Execute Sql String    SELECT * FROM users
     Disconnect From Database
-    #    Connect To Database Using Custom Params    pyodbc    "Driver={MySQL ODBC 5.3 Unicode Driver};Server=18.167.6.45;Port=22;Database=aws-test;User=root;Password=ng6brE9LqSrt0M4H8HUD;"
 
 *** Keywords ***
