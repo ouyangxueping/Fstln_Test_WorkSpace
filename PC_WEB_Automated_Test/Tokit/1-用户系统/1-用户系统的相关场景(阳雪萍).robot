@@ -54,7 +54,7 @@ Case_用户申请重置密码
     点击个人中心的Icon
     跳转至重置密码页面
     输入已注册邮箱进行重置密码
-    重置密码页面点击ReSet按钮
+    重置密码页面点击Reset按钮
     判断页面是否展示重置密码的邮箱
     关闭浏览器
     [Teardown]    Run Keyword If    '${PREV TEST STATUS}'=='FAIL'    fail    Run Keywords    Import Library    OperatingSystem
